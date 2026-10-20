@@ -1,0 +1,20 @@
+.slop-with-photos .slop-intro{margin-top:12px;font-size:16px}.slop-with-photos .slop-examples{grid-template-columns:1.3fr 1fr .92fr;gap:18px;margin-top:17px}.slop-with-photos .slop-examples article{padding-top:7px}.slop-with-photos .slop-examples h3{font-size:21px;margin-top:5px}.slop-with-photos .slop-photo{position:relative;display:block;width:100%;height:188px;margin:10px 0 8px;padding:0;border:0;border-radius:0;overflow:hidden;background:var(--pale);cursor:zoom-in}.slop-with-photos .slop-photo img{display:block;width:100%;height:100%;object-fit:cover}.slop-with-photos .slop-menu-photo img{object-position:50% 65%}.slop-with-photos .slop-flyer-photo img{object-position:90% 57%}.slop-with-photos .slop-photo>span{position:absolute;bottom:5px;right:5px;background:#fafaf7ed;color:var(--ink);font-size:10px;padding:3px 5px}.slop-with-photos .slop-portrait-pair{display:grid;grid-template-columns:1fr 1fr;gap:5px}.slop-with-photos .slop-portrait-pair img{object-position:50% 25%}.slop-with-photos .slop-portrait-pair .slop-photo>span{font-size:9px}.slop-with-photos .slop-examples p{font-size:14px;line-height:1.45}.slop-with-photos .slop-reaction{margin-top:19px;padding-left:14px}.slop-with-photos .slop-reaction p{font-size:23px;margin-top:5px}.slop-with-photos .slop-caption{font-size:9px}@media(max-width:680px){.slop-with-photos .slop-examples{grid-template-columns:1fr}.slop-with-photos .slop-photo{height:240px}.slop-with-photos .slop-caption{position:static}}
+.slop-with-photos .slop-examples{grid-template-columns:minmax(0,1.3fr) minmax(0,1fr) minmax(0,.92fr)}.slop-with-photos .slop-examples article{min-width:0}.slop-with-photos .slop-photo{min-width:0;min-height:0;height:165px}.slop-with-photos .slop-portrait-pair{min-width:0;grid-template-columns:minmax(0,1fr) minmax(0,1fr)}.slop-with-photos .slop-reaction{margin-top:14px}.slop-with-photos .slop-reaction p{font-size:21px}.slop-with-photos .slop-examples p{font-size:13px}.slop-with-photos .slop-examples h3{font-size:20px}
+
+.slop-with-photos .slop-food-pair{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:6px}.slop-with-photos .slop-burrito img{object-fit:cover;object-position:50% 50%}.slop-with-photos .slop-ring-shrimp img{width:200%;max-width:none;height:200%;object-fit:fill;transform:translateY(-50%)}.slop-with-photos .slop-font-collage img{object-fit:cover;object-position:50% 13%}
+
+.slop-with-photos .slop-ring-shrimp img{position:absolute;left:0;bottom:0;width:auto;height:200%;max-width:none;object-fit:contain;transform:none}
+
+/* Korean community examples: preserve source photos; crop only the slide thumbnails. */
+.slop-with-photos .slop-font-pair{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:6px}
+.slop-with-photos .slop-korean-beef img{position:absolute;width:210%;max-width:none;height:auto;left:-105%;top:-67px;object-fit:initial}
+.slop-with-photos .slop-korean-menu img{object-fit:cover;object-position:50% 40%}
+.slop-with-photos .slop-korean-sign img{position:absolute;width:140%;max-width:none;height:auto;left:-18%;top:-35px;object-fit:initial}
+.slop-with-photos .slop-korean-noodle img{position:absolute;width:230%;max-width:none;height:auto;left:-48%;top:-132px;object-fit:initial}
+
+/* Menu banner overview + detail, from the same Korean community example. */
+.slop-with-photos .slop-menu-sign-pair{grid-template-columns:minmax(0,.7fr) minmax(0,1fr)}
+.slop-with-photos .slop-menu-sign-full img{position:static;width:100%;height:100%;object-fit:contain}
+.slop-with-photos .slop-menu-sign-detail img{position:absolute;width:180%;max-width:none;height:auto;left:-44%;top:-62px;object-fit:initial}
+
+.slop-with-photos .slop-ai-kimchi img{object-fit:cover;object-position:50% 42%}

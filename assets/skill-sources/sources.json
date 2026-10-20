@@ -1,0 +1,39 @@
+{
+  "captured": "2026-09-13",
+  "method": "Playwright visible-page viewport screenshot, 1440x900",
+  "screenshots": [
+    {
+      "file": "awesome-suno-github.png",
+      "url": "https://github.com/naqashmunir21/awesome-suno-prompts"
+    },
+    {
+      "file": "gongnyang-github.png",
+      "url": "https://github.com/gongnyang/gongnyang-prompt-kit"
+    },
+    {
+      "file": "xazinga-apps.png",
+      "url": "https://www.xazinga.com/apps"
+    },
+    {
+      "file": "higgsfield-community.png",
+      "url": "https://higgsfield.ai/ko/community/projects"
+    },
+    {
+      "file": "gongnyang-readme.png",
+      "source": "User-supplied screenshot, copied unchanged",
+      "url": "https://github.com/gongnyang/gongnyang-prompt-kit"
+    },
+    {
+      "file": "awesome-suno-readme.png",
+      "url": "https://github.com/naqashmunir21/awesome-suno-prompts#-awesome-suno-ai-prompts",
+      "viewport": "1280x720"
+    },
+    {
+      "file": "runway-unlimited-live.png",
+      "source": "Existing Aside Runway generation session, read-only native screenshot",
+      "captured": "2026-09-13",
+      "observed": "Unlimited badge; Seedance2.0;15s; active blue/violet Generate. No generation clicked."
+    }
+  ],
+  "note": "Actual public repository screens, not recreated UI. Captured statistics and README claims are not quality guarantees."
+}

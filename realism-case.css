@@ -1,0 +1,15 @@
+.realism-case h2{font-size:39px}
+.realism-points{font-size:17px;line-height:1.45;margin-top:12px;color:var(--copy)}
+.realism-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px 15px;margin-top:18px}
+.realism-grid figure{margin:0;min-width:0}
+.realism-grid button{display:block;position:relative;width:100%;height:134px;padding:0;border:1px solid var(--line);overflow:hidden;background:var(--mat);cursor:zoom-in}
+.realism-grid img{display:block;width:100%;height:100%;object-fit:cover;object-position:center 55%}
+.realism-grid button>span{position:absolute;right:6px;bottom:6px;font-size:14px;line-height:1;background:#fafaf7de;color:var(--ink);padding:5px}
+.realism-grid button:hover{border-color:var(--rust)}
+.realism-grid figcaption{font-size:14px;line-height:1.3;margin-top:7px;letter-spacing:-.035em;color:var(--ink)}
+.realism-grid figcaption i{font-style:normal;font-size:10px;color:var(--rust);margin-right:7px;font-variant-numeric:tabular-nums}
+.realism-caption{font-size:11px;line-height:1.4;margin-top:9px;color:var(--copy)}
+.ai-realism-collection .gs-collection-thumb{aspect-ratio:4/5}
+.ai-realism-collection .gs-collection-thumb img{object-fit:contain}
+.ai-realism-collection .gs-collection-image{background:#eae7df}
+@media(max-width:680px){.realism-case h2{font-size:31px}.realism-points{font-size:16px;line-height:1.6;margin-top:20px}.realism-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:21px 13px;margin-top:24px}.realism-grid button{height:auto;aspect-ratio:4/5}.realism-grid img{object-fit:contain}.realism-grid figcaption{font-size:13px;line-height:1.45}.realism-caption{font-size:11px;margin-top:22px}}

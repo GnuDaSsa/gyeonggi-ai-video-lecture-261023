@@ -1,0 +1,7 @@
+# 바이브 코딩 3컷 만화 생성 기록
+
+Built-in imagegen 사용. 결과: vibe-coding-comic.png
+
+## 생성 프롬프트
+
+Create an editorial three-panel comic strip for a Korean lecture slide explaining ordinary vibe coding. Ultra-wide horizontal 3:1 composition, three equal panels side by side with thin dark borders and narrow gutters. Refined hand-drawn ink illustration, warm ivory #fafaf7 background, charcoal #272c27, muted sage gray and small burnt-orange #bf5333 accents only. No gradients, no 3D, no pixel art. Consistent friendly Korean adult with short black hair wearing casual sage overshirt seated at laptop, clear expressive gestures. Panel 1: person casually talking to their laptop, hand gesturing, idea of a simple personal to-do checklist app. Panel 2: over-shoulder view, laptop shows an actual simple to-do checklist interface with large square checkboxes and three abstract text lines; person points at one item that needs changing. Panel 3: person smiling while checking the improved checklist app on laptop, one completed item visibly crossed out and two unfinished items; faint code lines in secondary small window imply AI wrote the code. Keep each illustration mostly in lower two thirds, leave top quarter of every panel completely clean for HTML speech text to be overlaid later. No written text, no letters, no titles, no speech bubbles, no watermarks. This is a tasteful comic illustration not a corporate infographic. Faces and desk objects should be well drawn with lively ink linework. Output a single wide three-panel image.

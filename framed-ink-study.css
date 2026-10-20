@@ -1,0 +1,16 @@
+
+.framed-ink-study h2{font-size:39px}
+.framed-ink-layout{display:grid;grid-template-columns:252px 1fr;gap:50px;margin-top:34px;align-items:center}
+.framed-ink-book{display:flex;flex-direction:column;align-items:center}
+.framed-ink-book img{display:block;height:320px;width:246px;object-fit:contain;filter:drop-shadow(6px 8px 7px #0002)}
+.framed-ink-book figcaption{margin-top:13px;font-size:10px;color:var(--copy)}
+.framed-ink-reading{font-size:13px;color:var(--rust);display:block;margin-bottom:10px}
+.framed-ink-copy h3{font-size:38px;font-weight:550;letter-spacing:-.05em}
+.framed-ink-copy .framed-ink-author{font-size:12px;margin-top:10px}
+.framed-ink-copy .framed-ink-description{font-size:22px;color:var(--ink);margin-top:23px;letter-spacing:-.04em}
+.framed-ink-copy dl{margin:25px 0 0}
+.framed-ink-copy dl>div{display:grid;grid-template-columns:100px 1fr;gap:15px;padding:15px 0;border-top:1px solid var(--line);align-items:baseline}
+.framed-ink-copy dt{font-size:19px;color:var(--rust);font-weight:550}
+.framed-ink-copy dd{margin:0;font-size:18px;letter-spacing:-.035em;color:var(--ink)}
+.framed-ink-source{position:absolute;bottom:17px;right:56px;font-size:10px;color:var(--copy);text-decoration:none}
+@media(max-width:680px){.framed-ink-layout{grid-template-columns:1fr;gap:30px}.framed-ink-copy h3{font-size:32px}.framed-ink-source{position:static;display:block;margin-top:25px}.framed-ink-copy dl>div{grid-template-columns:90px 1fr;gap:10px}}

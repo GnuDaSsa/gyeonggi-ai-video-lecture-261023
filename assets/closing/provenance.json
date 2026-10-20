@@ -1,0 +1,27 @@
+{
+  "source": "/Users/gnudas/Downloads/aaf2ea7cf5efca0a2bd272bc51ec2447_1.mp4",
+  "bytes": 210769468,
+  "sha256": "8f77146365f2132047497a0a5f9c6c8b055a8d12bb2fed050a05fb472e8f6112",
+  "duration": 120.066667,
+  "frame_seconds": {
+    "poster": 2,
+    "main": 91,
+    "native": 100,
+    "light": 74,
+    "sun": 109
+  },
+  "qr_url": "https://youtu.be/9FZdVmTxonw?si=3GtUXLCPPe5oinQx",
+  "references": "20260824_191442_kim-wooyoung-fiji-rebuild/media; examples of production references, not a complete attachment manifest",
+  "blender_source": "/Users/gnudas/Documents/Codex/video-team-runtime/20260908_070435_blue-orbit-astra-alternative/media/90_work_작업중/AX04_R4_PREVIS_14_958s.mp4",
+  "anime_frames": "five existing lecture films at12s; additional inauguration frame20s",
+  "threads_gif": {
+    "source": "https://www.threads.com/@ai_grimdal/post/DakoaXAk9-s?hl=ko",
+    "author": "@ai_grimdal",
+    "excerpt_seconds": [
+      0,
+      12
+    ],
+    "frames": 120,
+    "purpose": "user-requested lecture reference"
+  }
+}

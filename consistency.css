@@ -1,0 +1,22 @@
+.consistency-case .consistency-preview{aspect-ratio:auto;background:transparent;cursor:zoom-in}
+.consistency-case .consistency-preview img{object-fit:contain}
+.consistency-failures-layout{display:grid;grid-template-columns:minmax(0,1fr) 210px;gap:26px;margin-top:40px;align-items:center}
+.consistency-failures-layout .consistency-preview{height:344px}
+.consistency-failure-list{display:grid;gap:23px}
+.consistency-failure-list>div{border-top:1px solid var(--line);padding-top:12px}
+.consistency-failure-list p{font-size:16px;line-height:1.45;color:var(--copy)}
+.consistency-failure-list strong{display:block;margin-top:6px;font-size:22px;line-height:1.3;letter-spacing:-.035em;font-weight:550;color:var(--ink)}
+@media(max-width:680px){.consistency-failures-layout{grid-template-columns:1fr;gap:25px;margin-top:28px}.consistency-failures-layout .consistency-preview{height:auto;aspect-ratio:1672/941}.consistency-failure-list{gap:19px}}
+.consistency-reason-layout{display:grid;grid-template-columns:minmax(0,1fr) 386px;gap:34px;margin-top:24px;align-items:center}
+.consistency-reason-layout .consistency-preview{height:378px}
+.consistency-statement{font-size:34px;line-height:1.3;letter-spacing:-.045em;color:var(--ink)}
+.consistency-statement strong{font-weight:570;color:var(--rust)}
+.consistency-details{margin-top:28px}
+.consistency-details p{font-size:22px;line-height:1.3;color:var(--ink);border-top:1px solid var(--line);padding:11px 0}
+.consistency-action{font-size:18px;margin-top:20px;color:var(--copy)}
+.consistency-sheet-layout{display:grid;grid-template-columns:minmax(0,1fr) 190px;gap:28px;margin-top:38px;align-items:center}
+.consistency-sheet-layout .consistency-preview{height:354px}
+.consistency-sheet-parts{font-size:20px;line-height:1.65;color:var(--copy)}
+.consistency-sheet-repeat{font-size:25px;line-height:1.4;letter-spacing:-.045em;color:var(--ink);border-top:1px solid var(--line);margin-top:25px;padding-top:23px}
+.consistency-sheet-repeat strong{font-weight:560;color:var(--rust)}
+@media(max-width:680px){.consistency-reason-layout,.consistency-sheet-layout{grid-template-columns:1fr;gap:28px;margin-top:28px}.consistency-statement{font-size:29px}.consistency-reason-layout .consistency-preview{height:auto;aspect-ratio:701/815;max-width:370px;margin:auto}.consistency-sheet-layout .consistency-preview{height:auto;aspect-ratio:1672/941}.consistency-sheet-copy{display:grid;grid-template-columns:1fr 1fr;gap:20px}.consistency-sheet-repeat{margin:0;padding:0;border:0;font-size:23px}.consistency-sheet-parts{font-size:18px}}

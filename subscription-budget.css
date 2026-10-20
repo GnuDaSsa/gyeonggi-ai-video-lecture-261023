@@ -1,0 +1,31 @@
+.subscription-slide .budget-heading{display:flex;align-items:baseline;justify-content:space-between;gap:14px}
+.subscription-slide [data-budget-reset]{border:0;border-bottom:1px solid var(--line);padding:4px 0;background:transparent;color:var(--copy);font-size:11px;white-space:nowrap}
+.subscription-slide [data-budget-reset]:hover{color:var(--rust);border-color:var(--rust)}
+.subscription-slide .budget-grid{grid-template-columns:1.16fr 1fr;gap:34px;margin-top:24px}
+.subscription-slide .subscription-fee{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;gap:10px;padding:10px 0;min-height:40px}
+.subscription-choice{display:flex;align-items:center;gap:10px;min-width:0;cursor:pointer;line-height:1.3}
+.subscription-slide .subscription-choice input[type="checkbox"]{display:block;width:17px;height:17px;flex:0 0 17px;margin:0;padding:0;accent-color:var(--rust);cursor:pointer}
+.subscription-choice span{transition:color .18s}
+.subscription-coupon{display:grid;justify-items:end;gap:4px;background:transparent;color:var(--ink);border:1px solid var(--line);padding:6px 8px;min-height:47px;border-radius:2px}
+.subscription-coupon:hover{border-color:var(--rust);background:#bf533308}
+.subscription-coupon[aria-pressed="true"]{color:var(--rust);border-color:#bf53336b;background:#bf533308}
+.subscription-coupon-values{display:flex;align-items:baseline;gap:6px;font-variant-numeric:tabular-nums}
+.subscription-slide .subscription-coupon del{font-size:10px;color:var(--copy);font-weight:400}
+.subscription-slide .subscription-coupon small{font-size:10px;line-height:1.3;margin:0;color:var(--rust)}
+.subscription-slide .subscription-cost{font-variant-numeric:tabular-nums}
+.subscription-fee.is-excluded .subscription-choice span,.subscription-fee.is-excluded .subscription-cost{color:#a2a398;text-decoration:line-through}
+.subscription-fee.is-excluded .subscription-coupon{opacity:.45;cursor:default}
+.subscription-slide .budget-total{padding-top:12px}
+.subscription-slide .budget-sum{display:block;font-size:62px;font-variant-numeric:tabular-nums;letter-spacing:-.065em}
+.subscription-slide .budget-sum b{font:inherit}
+.subscription-slide .budget-savings{font-size:12px;line-height:1.4;color:var(--rust);margin-top:10px}
+.subscription-slide .budget-total .rule{margin:18px 0}
+.subscription-slide .hardware-purchase{margin-top:18px;padding-top:14px}
+@media(max-width:680px){
+  .subscription-slide .budget-grid{grid-template-columns:1fr;gap:24px}
+  .subscription-slide .subscription-fee{font-size:15px}
+  .subscription-choice{gap:8px}
+  .subscription-slide .subscription-coupon small{font-size:9px}
+  .subscription-slide .budget-sum{font-size:55px}
+}
+@media(prefers-reduced-motion:reduce){.subscription-choice span{transition:none}}

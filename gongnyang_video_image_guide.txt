@@ -1,0 +1,73 @@
+공냥이 프롬프트 킷 — 이미지 작성 핵심
+
+사용자의 짧은 요청을 구체적인 화면 설명으로 발전시킨다.
+무엇을 만들지는 사용자가 정한다. 요청의 주제와 의도, 제공된 레퍼런스를 유지하면서 구도·빛·색·질감에 필요한 결정을 채운다.
+
+1. 추상적인 감상을 화면에 보이는 요소로 바꾼다
+‘멋지게’, ‘감성적으로’, ‘고급스럽게’라는 말로 끝내지 않는다.
+예: ‘영화처럼’ → ‘낮은 시점에서 올려다본 인물, 뒤쪽의 따뜻한 빛이 어깨 윤곽을 감싸고 먼 배경은 푸른 안개 속으로 흐려진다.’
+품질을 칭찬하는 단어보다 실제로 그릴 수 있는 묘사를 쓴다.
+
+2. 중요한 시각 정보를 먼저 쓴다
+누가·무엇이·어디서·무엇을 하는지, 화면의 중심이 무엇인지 먼저 정한다.
+주변 요소는 중심 피사체와의 크기·위치·거리 관계로 설명한다.
+요소를 무작정 늘리지 않고 요청의 핵심이 잘 보이게 구성한다.
+
+3. 구도와 카메라를 결정한다
+시점, 촬영 거리, 화면 내 배치, 여백, 배경과의 거리감을 구체화한다.
+예: ‘눈높이의 정면 구도, 피사체의 전신을 화면 중앙에 배치하고 머리 위와 발아래에 여백을 둔다.’
+장비 이름만 나열하기보다 원근감, 심도, 배경 흐림처럼 눈에 보이는 결과를 설명한다.
+화면 비율과 배치는 사용자 요청에 맞춘다.
+
+4. 빛으로 형태와 분위기를 만든다
+빛의 방향, 부드러움, 밝고 어두운 부분의 관계, 그림자와 윤곽광을 정한다.
+예: ‘왼쪽 창에서 들어오는 부드러운 빛, 오른쪽에는 옅은 그림자, 배경은 피사체보다 한 단계 어둡게.’
+색온도나 조명 비율은 표현에 도움이 될 때 구체적으로 쓴다.
+
+5. 색을 하나의 팔레트로 묶는다
+주조색과 보조색, 작은 강조색의 관계를 정한다. 보통 3~5색 안에서 화면의 분위기를 일관되게 만든다.
+필요하면 HEX 값을 함께 적는다.
+예: ‘짙은 남색 #1B2440을 바탕으로, 따뜻한 금색 #E8B168과 옅은 장밋빛 #E8C4C4을 보조로 사용한다.’
+제공된 레퍼런스의 고유 색상이 있으면 그것을 우선한다.
+
+6. 매체와 질감을 구체화한다
+실사, 애니메이션, 일러스트 등 표현 방식을 정하고 소재가 빛에 반응하는 모습을 설명한다.
+예: ‘광택이 약한 도자기 표면’, ‘직조가 드러나는 천’, ‘가늘고 은은한 필름 입자’.
+실사 인물은 자연스러운 피부 결처럼 관찰 가능한 특징으로 묘사한다.
+
+7. 원하는 상태를 직접 쓴다
+배제할 요소를 길게 나열하기보다 완성 화면이 어떤 상태여야 하는지 적는다.
+예: ‘복잡한 배경 금지’ → ‘깨끗한 밝은 단색 배경’.
+‘masterpiece’, ‘best quality’, ‘8k’ 같은 상투적 품질 주문, 가중치 표기, 특정 도구의 명령 옵션 대신 화면 자체를 설명한다.
+
+적용
+사용자의 요청을 장면 → 구도 → 조명 → 색감 → 매체·질감 순서로 구체화한다. 필요한 경우에만 이미지 안의 글자와 배치를 명시한다.
+사용자가 지정한 내용과 레퍼런스를 우선하고, 요청하지 않은 과제나 결과물 형식을 덧붙이지 않는다.
+이미지 생성 요청이면 구체화한 설명으로 이용 가능한 이미지 생성 기능을 사용한다. 기능이 없으면 그 사실을 알린다.
+
+출처
+공냥이 프롬프트 킷의 작성 원칙을 추려 재구성한 자료.
+https://github.com/gongnyang/gongnyang-prompt-kit
+원본 전체 스킬이 아닌 핵심 작성법 요약이며, 아래는 원본 라이선스 고지다.
+
+MIT License
+
+Copyright (c) 2026 kimsh-1
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
