@@ -1,0 +1,118 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import crypto from 'node:crypto';
+import vm from 'node:vm';
+import {execFileSync} from 'node:child_process';
+const root=path.resolve(import.meta.dirname,'..');
+const read=p=>fs.readFileSync(path.join(root,p),'utf8');
+const assert=(condition,message)=>{if(!condition)throw Error(message)};
+execFileSync('python3',[path.join(root,'scripts/verify_structure.py'),path.join(root,'index.html')]);
+const html=read('index.html');
+const slides=[...html.matchAll(/<section\b([^>]*class="slide\b[^>]*)>([\s\S]*?)<\/section>/g)];
+assert(slides.length===103,`Expected 103 slides; found ${slides.length}`);
+const titles=slides.map(m=>m[1].match(/data-title="([^"]+)"/)?.[1]);
+const ids=slides.map(m=>m[1].match(/id="([^"]+)"/)?.[1]);
+assert(titles.every(Boolean)&&ids.every(Boolean),'Slide title/id missing');
+assert(new Set(ids).size===ids.length,'Duplicate slide IDs');
+assert(ids.slice(56,62).join(',')==='case-dola-trial,case-independence-context,case-independence-style,case-independence-planning,case-independence-outcomes,lecture-057','Independence case insertion order mismatch');
+slides.forEach((m,i)=>assert(Number(m[2].match(/<header class="running">[\s\S]*?<span>(\d+)<\/span><\/header>/)?.[1])===i+1,`Running number mismatch: ${i+1}`));
+const allIds=[...html.matchAll(/\sid="([^"]+)"/g)].map(m=>m[1]);
+assert(new Set(allIds).size===allIds.length,'Duplicate HTML ID');
+for(const m of html.matchAll(/data-go-id="([^"]+)"/g))assert(ids.includes(m[1]),`Broken jump ${m[1]}`);
+assert(!html.includes('data-go="'),'Numeric slide jump remains');
+const refs=new Set();
+for(const m of html.matchAll(/(?:src|href|poster)="([^"]+)"/g))refs.add(m[1]);
+for(const f of fs.readdirSync(root).filter(f=>f.endsWith('.css'))){
+ for(const m of read(f).matchAll(/url\(['"]?([^'"()]+)['"]?\)/g))refs.add(m[1]);
+}
+const mediaContext={window:{}};vm.runInNewContext(read('media.js'),mediaContext);
+for(const ref of Object.values(mediaContext.window.LECTURE_MEDIA))if(ref)refs.add(ref);
+let local=0;
+for(const ref of refs){
+ if(/^(?:https?:|data:|blob:|#|mailto:)/.test(ref))continue;
+ const file=decodeURIComponent(ref.split(/[?#]/)[0]);if(!file)continue;
+ assert(fs.existsSync(path.join(root,file)),`Missing reference: ${ref}`);local++;
+ if(file.endsWith('.mp4')){const fd=fs.openSync(path.join(root,file),'r'),b=Buffer.alloc(130);fs.readSync(fd,b,0,b.length,0);fs.closeSync(fd);assert(!b.toString().startsWith('version https://git-lfs'),'LFS pointer '+file)}
+}
+const notes=JSON.parse(read('docs/speaker-notes.json'));
+assert(notes.length===slides.length,'Notes count mismatch');
+notes.forEach((n,i)=>assert(n.id===ids[i]&&n.title===titles[i]&&n.notes.length>0,`Notes mismatch: ${i+1}`));
+const headings=[...read('발표자노트.md').matchAll(/^## (\d+)\. (.+)$/gm)];
+assert(headings.length===slides.length,'Markdown note count mismatch');
+headings.forEach((m,i)=>assert(Number(m[1])===i+1&&m[2]===titles[i],`Markdown heading mismatch ${i+1}`));
+const noteSections=read('발표자노트.md').split(/^## \d+\. .+$/m).slice(1);
+noteSections.forEach((body,i)=>assert(body.trim()===notes[i].notes.trim(),`Markdown note body mismatch ${i+1}`));
+const provenance=JSON.parse(read('assets/case-studies/provenance.json'));
+for(const a of provenance.assets){const b=fs.readFileSync(path.join(root,a.file));assert(b.length===a.bytes,`Asset size mismatch ${a.file}`);assert(crypto.createHash('sha256').update(b).digest('hex')===a.sha256,`Asset hash mismatch ${a.file}`)}
+const recovered=JSON.parse(read('docs/independence-recovered-assets.json'));
+assert(recovered.files.length===83&&new Set(recovered.files.map(a=>a.file)).size===83,'Recovered source index mismatch');
+const selected=recovered.files.filter(a=>a.lecture_copy);
+assert(selected.length===8,'Expected 8 later production copies');
+for(const a of selected){
+ const p=provenance.assets.find(p=>p.file===a.lecture_copy);
+ assert(p?.sha256===a.sha256&&p.bytes===a.bytes,`Recovered asset differs from provenance: ${a.file}`);
+}
+const collection=html.match(/<dialog id="independence-collection"[\s\S]*?<\/dialog>/)?.[0];
+assert(collection,'Independence gallery missing');
+const galleryIndices=[...collection.matchAll(/data-gs-image="(\d+)"/g)].map(m=>Number(m[1]));
+assert(galleryIndices.join(',')==='0,1,2,3,4,5,6,7,8','Expected 9 ordered gallery images');
+for(const m of html.matchAll(/<button[^>]*data-gs-gallery-open="independence-collection"[^>]*>/g)){
+ const index=m[0].match(/data-gs-gallery-index="(\d+)"/)?.[1];
+ if(index!==undefined)assert(galleryIndices.includes(Number(index)),'Invalid gallery starting image');
+}
+const removed=['case-hwaseong-labels','lecture-088','lecture-089','lecture-076','lecture-056','case-drone-priorities','lecture-055','lecture-085','case-hwaseong-method','case-hwaseong-wardrobe','case-hwaseong-prompt','case-hwaseong-bottlenecks'];
+for(const id of removed)assert(!ids.includes(id),`Deleted slide remains: ${id}`);
+assert(ids[51]==='case-inauguration-onsite'&&ids[50]==='lecture-049','On-site video position mismatch');
+assert(ids.slice(38,41).join(',')==='lecture-039,lecture-051,lecture-040','AI slop must follow slide39');
+assert(ids[60]==='case-independence-outcomes','Independence outcomes must follow planning');
+assert(ids.slice(95,103).join(',')==='case-hwaseong-film,case-postproduction-origin,case-hwaseong-postfx,case-hwaseong-grade,case-hwaseong-upscale,case-recommended-route,case-future-plans,lecture-091','Postproduction sequence mismatch');
+assert(ids.slice(63,66).join(',')==='lecture-059,case-foodtech-texture,lecture-060','Foodtech case must follow previous slide63');
+assert(ids.slice(79,84).join(',')==='lecture-070,lecture-072,lecture-073,lecture-071,lecture-074','Workflow must immediately precede computer use');
+assert(ids.slice(83,88).join(',')==='lecture-074,lecture-075,lecture-086,lecture-087,lecture-090','Computer-use cluster mismatch');
+assert(ids.slice(53,57).join(',')==='lecture-054,lecture-053,lecture-084,case-dola-trial','Price/workflow/syntax sequence mismatch');
+assert(ids.slice(45,48).join(',')==='lecture-045,lecture-052,lecture-046','Style candidates must follow composition');
+const community=slides.find(m=>m[1].includes('id="lecture-083"'))?.[2];
+assert(community?.includes('href="https://higgsfield.ai/community" target="_blank" rel="noopener noreferrer"')&&!community.includes('data-story-title="힉스필드 커뮤니티"'),'Higgsfield must open the official community, not the image viewer');
+const recommendation=slides.find(m=>m[1].includes('id="case-recommended-route"'))?.[2];
+for(const text of ['Google Flow','Grok Imagine','적당한 요금제','간단한 걷기','얼굴 클로즈업 유지','원테이크로 긴 영상','액션감','헤비유저'])assert(recommendation?.includes(text),'Recommendation missing '+text);
+const future=slides.find(m=>m[1].includes('id="case-future-plans"'))?.[2];
+for(const text of ['AI챔피언 블랙 수료 후','국장님한테 요청받아서','푸드테크','화성시 공모전 이후에도','영상 제작 도전','실력과 명성','시에서 전액 지원','분위기를 만들고 싶다'])assert(future?.includes(text),'Future plan missing '+text);
+assert(!future.includes('짬맞아서'),'Future plan must use corrected request wording');
+const postOrigin=slides.find(m=>m[1].includes('id="case-postproduction-origin"'))?.[2];
+for(const text of ['Opus 5.5','HyperFrames','Remotion','Three.js','HTML 위에 얹어서','이미 만든 영상','효과를 위에 덮어보기','후처리 시도'])assert(postOrigin?.includes(text),'Postproduction origin missing '+text);
+assert((postOrigin.match(/<img /g)||[]).length===3&&['hyperframes-threejs.gif','remotion-logo.gif','hwaseong-overlay.gif'].every(f=>postOrigin.includes(f)),'Expected three real GIF examples');
+const syntax=slides.find(m=>m[1].includes('id="lecture-084"'))?.[2];
+for(const text of ['Atmosphere','Continuity','0–8초','8–15초','No text','data-seedance-prompt-open','seedance-fiji-ribbon.jpg','seedance-fiji-cup.jpg'])assert(syntax?.includes(text),'Seedance example missing '+text);
+assert(!/<a\b/.test(syntax),'Syntax slide must not open an external prompt link');
+const syntaxExample=read('assets/case-studies/seedance-fiji-s09-prompt.txt');
+assert(crypto.createHash('sha256').update(syntaxExample.trim()).digest('hex')==='6c81d79fc5576d75ac0459a9adf0c48d219d2270028b5d9d332d5c844bb1edb6','Production prompt differs from recorded card hash');
+const promptTemplate=html.match(/<template id="seedance-prompt-content">([\s\S]*?)<\/template>/)?.[1];
+assert(promptTemplate?.includes('seedance-fiji-s09.mp4')&&promptTemplate.includes(syntaxExample),'Full production prompt/result must be embedded');
+const candidate=slides.find(m=>m[1].includes('id="lecture-052"'))?.[2];
+assert((candidate.match(/<img /g)||[]).length===5,'Expected Midjourney + 4 Grok style images');
+const dola=slides.find(m=>m[1].includes('id="case-dola-trial"'))?.[2];
+assert(dola?.includes('seedance-model-aside.png')&&dola.includes('미확인')&&!dola.includes('2회'),'Dola evidence/uncertainty missing');
+for(const id of ['case-hwaseong-postfx'])assert((slides.find(m=>m[1].includes('id="'+id+'"'))?.[2].match(/<figure>/g)||[]).length===4,'Expected four scenes in '+id);
+const foodtech=slides.find(m=>m[1].includes('id="case-foodtech-texture"'))?.[2];
+assert(foodtech?.includes('너무 자글자글해서 싫어')&&foodtech.includes('Seedream 5.0 Pro')&&(foodtech.match(/<figure>/g)||[]).length===2,'Foodtech texture feedback or images missing');
+assert(ids.slice(74,79).join(',')==='lecture-069,case-drone-method,case-drone-assets,case-drone-flight,case-drone-proxy','Drone screening/method/assets order mismatch');
+const styleSlide=slides.find(m=>m[1].includes('id="case-independence-style"'))?.[2];
+assert(styleSlide?.includes('왜 이 작풍을 썼나')&&(styleSlide.match(/<figure>/g)||[]).length===4,'Expected four source figures');
+assert(styleSlide.includes('보훈이라 일본 작풍은 빼고')&&styleSlide.includes('진중한 수묵화 작풍')&&styleSlide.includes('과거·현재 느낌을 구분하려고')&&styleSlide.includes('지지직하는 작풍 대신'),'Style selection rationale missing');
+assert(!html.includes('case-prompt-content')&&!html.includes('data-case-prompt-open'),'Deleted case prompt UI remains');
+for(const [id,n] of [['lecture-061',3],['lecture-069',4],['case-hwaseong-film',5]])assert(slides.find(m=>m[1].includes('id="'+id+'"'))?.[2].includes('시댄스로 만든 '+n+'번째 작품'),'Screening ordinal missing '+id);
+const upscale=slides.find(m=>m[1].includes('id="case-hwaseong-upscale"'))?.[2];
+assert(upscale?.includes('https://github.com/xinntao/Real-ESRGAN')&&!upscale.includes('65%')&&!upscale.includes('<table'),'Upscale overview must remain concise');
+assert(upscale?.includes('https://github.com/k4yt3x/video2x')&&upscale.includes('Windows에서 업스케일')&&upscale.includes('이번 영상 · Mac'),'Upscale must distinguish Mac case from Windows Video2X option');
+const onSite=slides.find(m=>m[1].includes('id="case-inauguration-onsite"'))?.[2].match(/<video\b[^>]*>/)?.[0];
+assert(onSite&&/\bcontrols\b/.test(onSite)&&onSite.includes('inauguration-on-site.mp4'),'On-site video missing');
+const finalVideo=slides.find(m=>m[1].includes('id="case-hwaseong-film"'))?.[2].match(/<video\b[^>]*>/)?.[0];
+assert(finalVideo&&/\bcontrols\b/.test(finalVideo)&&/\bplaysinline\b/.test(finalVideo)&&/\bpreload="metadata"/.test(finalVideo),'Final video native controls/metadata missing');
+const independenceSlide=slides.find(m=>m[1].includes('id="case-independence-context"'))?.[2];
+const independenceVideo=independenceSlide?.match(/<video\b[^>]*>/)?.[0];
+assert(independenceSlide?.includes('시댄스로 만든 두번째 작품'),'Screening subtitle missing');
+assert(independenceVideo&&/\bcontrols\b/.test(independenceVideo)&&/\bplaysinline\b/.test(independenceVideo)&&/\bpreload="metadata"/.test(independenceVideo),'Independence video controls/metadata missing');
+assert(independenceVideo.includes('assets/case-studies/independence-film.mp4'),'Independence screening source mismatch');
+for(const f of fs.readdirSync(root).filter(f=>/\.(?:js|mjs)$/.test(f)))execFileSync(process.execPath,['--check',path.join(root,f)]);
+assert(!/<video[^>]*\bautoplay/.test(html),'Unexpected autoplay video');
+console.log(`PASS: ${slides.length} slides, ${notes.length} aligned notes, ${local} local references, ${provenance.assets.length} asset hashes, 83 recovered records, 9 gallery images, stable jumps, native video controls, JavaScript syntax.`);

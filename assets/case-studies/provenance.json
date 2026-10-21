@@ -1,0 +1,424 @@
+{
+  "retrieved": "2026-10-20",
+  "final_confirmation": "Claude original project session confirmed info_v5 is latest final; no newer video. Existing source copied without transcoding.",
+  "assets": [
+    {
+      "file": "assets/case-studies/drone-character.png",
+      "source_project": "20260908_070435_blue-orbit-astra-alternative",
+      "source_relative": "media/03_characters_캐릭터/CHAR_HARAM_MANGA_R3.png",
+      "bytes": 1619294,
+      "sha256": "eb1e9c3e3ac3f7ed00f3b863484742289f2f5fb0284a4bfe907236c942a789e8"
+    },
+    {
+      "file": "assets/case-studies/drone-design.png",
+      "source_project": "20260908_070435_blue-orbit-astra-alternative",
+      "source_relative": "media/05_images_approved_이미지승인/DRONE_RYUGEON_CRESCENT_ANIME_R1.png",
+      "bytes": 1423624,
+      "sha256": "ed535886ad82635f0a58b9fd9ab8d064057dd1e45c25836762e631f7044953ff"
+    },
+    {
+      "file": "assets/case-studies/drone-arena.png",
+      "source_project": "20260908_070435_blue-orbit-astra-alternative",
+      "source_relative": "media/05_images_approved_이미지승인/ENV_ARENA_TWO_END_RINGS_R8.png",
+      "bytes": 2021212,
+      "sha256": "eb07d9eb3ce65ea69798c7f8fc1ba37b828a6d0da48a2d2d1a3d37de759a6c35"
+    },
+    {
+      "file": "assets/case-studies/drone-proxy-result.png",
+      "source_project": "20260908_070435_blue-orbit-astra-alternative",
+      "source_relative": "media/90_work_작업중/AB01_5_8s.png",
+      "bytes": 873946,
+      "sha256": "7c325287ada509b1a1c8eb28ebe9e3a1b421d2f374bf74dda020c72df8308902"
+    },
+    {
+      "file": "assets/case-studies/hwaseong-care-r1.jpg",
+      "source_project": "20261008_234653_hwaseong-recast-noi2v-door-test",
+      "source_relative": "media/90_work_작업중/umc_qc_20261014/f_08.0.jpg",
+      "bytes": 124393,
+      "sha256": "2e61c4e1e48c46a9d98ab25dbc433c1c01b235f196fcc4e4e9211fb2f2168d3c"
+    },
+    {
+      "file": "assets/case-studies/hwaseong-care-r2.jpg",
+      "source_project": "20261008_234653_hwaseong-recast-noi2v-door-test",
+      "source_relative": "media/90_work_작업중/HWR_URBAN_MOBILITY_CARE_15S_R2_sample_08.0.jpg",
+      "bytes": 133966,
+      "sha256": "599bb3426e8012c9defc94344823eaef678c04e86a40fc9d8094d1812fb55f4c"
+    },
+    {
+      "file": "assets/case-studies/hwaseong-final.mp4",
+      "source_project": "mv-type-lab-30s / 1008(1)",
+      "source_relative": "1008(1)_grade_v2_4K_info_v5.mp4",
+      "bytes": 237366439,
+      "sha256": "c449173611d971ac9fa8cb1545e1bdccf5c6c8eff05fb1e1af4a910ffb868648"
+    },
+    {
+      "file": "assets/case-studies/hwaseong-poster.jpg",
+      "source_project": "mv-type-lab-30s / 1008(1)",
+      "source_relative": "thumbnail_v4_4K.jpg",
+      "bytes": 957485,
+      "sha256": "d14b4127881486b42e74a41914213645e4f47dc038c18222f045ca9954348748"
+    },
+    {
+      "file": "assets/case-studies/drone-film.jpg",
+      "source_project": "gyeonggi-ai-video-lecture-261023 existing film",
+      "source_relative": "assets/closing/seongnam-drone-soccer.mp4 @ 20 seconds; frame extraction only",
+      "bytes": 283135,
+      "sha256": "4d39208a6dced9e3309561b5a564a9603b505c8e989180a40ea6cb80c63d7a21"
+    },
+    {
+      "file": "assets/case-studies/hwaseong-care-r2-prompt.txt",
+      "source_project": "20261008_234653_hwaseong-recast-noi2v-door-test",
+      "source_relative": "lanes/seedance/prompts/HWR_URBAN_MOBILITY_CARE_15S_R2_prompt.txt",
+      "bytes": 3076,
+      "sha256": "3e57acc6899526b02514558c9628ee272f64cc45ab28d3500a2e3eaa6fa7f5a8"
+    },
+    {
+      "file": "assets/case-studies/independence-early-ink.jpg",
+      "source_project": "20260714_114615_independence-activist-3min-seedance / retained local upload staging",
+      "source_relative": "Library/Application Support/gnudas-seedance15min/independence/assets/seedance_upload/T8_CUT20_quiet_lantern/01_CUT20_quiet_lantern_source.jpg",
+      "usage": "Initial July ink-wash production reference, not final film or historical photograph. Copied unchanged.",
+      "bytes": 343020,
+      "sha256": "f89a87aa95ebc5aff892219a8edc5b914df6f02a0cb1202317c309abded23c0c"
+    },
+    {
+      "file": "assets/case-studies/independence-character-sheet.png",
+      "source_project": "20260714_114615_independence-activist-3min-seedance / July25–27 session 019f9747-44b4-7422-9782-8f2afa492dcc",
+      "source_relative": ".codex-cli/generated_images/019f9747-44b4-7422-9782-8f2afa492dcc/exec-b5727e5d-8015-43d6-8e7c-8413aa6ba1ac.png",
+      "usage": "Recovered later production image, not proof of final edit selection or historical photograph. Copied unchanged.",
+      "bytes": 3148336,
+      "sha256": "6fa4a0c67a50e9b7cf8d60fc45bba2bfcbe32b7ae47b61ac0a28ee46a59dc7c0"
+    },
+    {
+      "file": "assets/case-studies/independence-beacon.png",
+      "source_project": "20260714_114615_independence-activist-3min-seedance / July25–27 session 019f9747-44b4-7422-9782-8f2afa492dcc",
+      "source_relative": ".codex-cli/generated_images/019f9747-44b4-7422-9782-8f2afa492dcc/exec-f7ee9977-e080-450a-82e7-112705816d32.png",
+      "usage": "Recovered later production image, not proof of final edit selection or historical photograph. Copied unchanged.",
+      "bytes": 2641236,
+      "sha256": "bead29933a23868524cce8307025673e895481f237bdff5fe788bd6c9be63c13"
+    },
+    {
+      "file": "assets/case-studies/independence-rice.png",
+      "source_project": "20260714_114615_independence-activist-3min-seedance / July25–27 session 019f9747-44b4-7422-9782-8f2afa492dcc",
+      "source_relative": ".codex-cli/generated_images/019f9747-44b4-7422-9782-8f2afa492dcc/exec-3d77bf83-22d5-4cc8-aadc-1e34d5b6700d.png",
+      "usage": "Recovered later production image, not proof of final edit selection or historical photograph. Copied unchanged.",
+      "bytes": 2949231,
+      "sha256": "f8c7defba9fdf90c2e5a6028d558318ca61801b2184b76894efff75139e19879"
+    },
+    {
+      "file": "assets/case-studies/independence-ending-crosswalk.png",
+      "source_project": "20260714_114615_independence-activist-3min-seedance / July25–27 session 019f9747-44b4-7422-9782-8f2afa492dcc",
+      "source_relative": ".codex-cli/generated_images/019f9747-44b4-7422-9782-8f2afa492dcc/exec-82192e89-fa6f-4ca4-b455-34b25f26e8e6.png",
+      "usage": "Recovered later production image, not proof of final edit selection or historical photograph. Copied unchanged.",
+      "bytes": 2620738,
+      "sha256": "0bbf359c0f0ca54a4dad73455bc7abbe8798bd726a37734989f242dd0c0e3547"
+    },
+    {
+      "file": "assets/case-studies/independence-ending-park.png",
+      "source_project": "20260714_114615_independence-activist-3min-seedance / July25–27 session 019f9747-44b4-7422-9782-8f2afa492dcc",
+      "source_relative": ".codex-cli/generated_images/019f9747-44b4-7422-9782-8f2afa492dcc/exec-feb47644-8666-497d-8040-3959b0ed09cd.png",
+      "usage": "Recovered later production image, not proof of final edit selection or historical photograph. Copied unchanged.",
+      "bytes": 2467554,
+      "sha256": "ffbe8b79193a08adf69c30afdc86edb43ff63fc2d665a5f4943da3484896b083"
+    },
+    {
+      "file": "assets/case-studies/independence-ending-bicycles.png",
+      "source_project": "20260714_114615_independence-activist-3min-seedance / July25–27 session 019f9747-44b4-7422-9782-8f2afa492dcc",
+      "source_relative": ".codex-cli/generated_images/019f9747-44b4-7422-9782-8f2afa492dcc/exec-3462ad91-8ce6-451a-9fd5-adc5fa2ca37d.png",
+      "usage": "Recovered later production image, not proof of final edit selection or historical photograph. Copied unchanged.",
+      "bytes": 2390423,
+      "sha256": "f9dd9cecd0c15d3ae13b09bbde9e1091fa40fddf01cf7f2557b2179c30eec0a9"
+    },
+    {
+      "file": "assets/case-studies/independence-ending-picnic.png",
+      "source_project": "20260714_114615_independence-activist-3min-seedance / July25–27 session 019f9747-44b4-7422-9782-8f2afa492dcc",
+      "source_relative": ".codex-cli/generated_images/019f9747-44b4-7422-9782-8f2afa492dcc/exec-a71b6f76-06cc-406a-aa4d-db02bd1c683b.png",
+      "usage": "Recovered later production image, not proof of final edit selection or historical photograph. Copied unchanged.",
+      "bytes": 2293979,
+      "sha256": "efeed2122cfb4c46db436e5a3db1416fea3298578f1549675d0bc13f6ed010c9"
+    },
+    {
+      "file": "assets/case-studies/independence-ending-neighbors.png",
+      "source_project": "20260714_114615_independence-activist-3min-seedance / July25–27 session 019f9747-44b4-7422-9782-8f2afa492dcc",
+      "source_relative": ".codex-cli/generated_images/019f9747-44b4-7422-9782-8f2afa492dcc/exec-0ab6bbe9-b4e0-4338-a17e-c6294d5fd678.png",
+      "usage": "Recovered later production image, not proof of final edit selection or historical photograph. Copied unchanged.",
+      "bytes": 2681440,
+      "sha256": "d007118cb75762eebb2e2d61595a7ae0b0d3e45a913efedcc5ad973dda2c3f98"
+    },
+    {
+      "file": "assets/case-studies/independence-film.mp4",
+      "source_project": "Seongnam independence activists / July28 mail export",
+      "source_relative": "/Users/gnudas/Documents/메일보내기/CapCut 영상_2026-07-28_메일용.mp4",
+      "usage": "July28 mail-ready edited export. Project identified from present-day opening, named independence activists, and present-day ending. Official final-master approval not verified. Copied without transcoding.",
+      "bytes": 83939763,
+      "sha256": "5fa2e7963c18ee80bacc43fcdd0f2d0cf77f75ad737913209c7ce057da15761f"
+    },
+    {
+      "file": "assets/case-studies/independence-poster.jpg",
+      "source_project": "Seongnam independence activists / July28 mail export",
+      "source_relative": "/Users/gnudas/Documents/메일보내기/CapCut 영상_2026-07-28_메일용.mp4 @ 0.5 seconds",
+      "usage": "Video frame extraction only; no image generation or retouching.",
+      "bytes": 334227,
+      "sha256": "9587bff2bfa7175f886c281fce411f6884c3ad90c03a4360845c8de83d008919"
+    },
+    {
+      "file": "assets/case-studies/inauguration-on-site.mp4",
+      "source_absolute": "/Users/gnudas/Downloads/IMG_5437.MOV",
+      "description": "User-attached IMG_5437.MOV; H264/AAC stream copy remux to MP4, metadata stripped, full 10.5s preserved",
+      "bytes": 20442140,
+      "sha256": "3f12c50f0a42b3e3a43d243f979df8ab3bf98a5c5154816ece6093e6223554ef"
+    },
+    {
+      "file": "assets/case-studies/inauguration-on-site-poster.png",
+      "source_absolute": "/Users/gnudas/Downloads/IMG_5437.MOV",
+      "description": "Unedited frame extracted at 8 seconds from IMG_5437.MOV",
+      "bytes": 1799842,
+      "sha256": "cd44651eb528336a2f29350a02176e7591afa2fe5476a2aca4c8d450caacf26e"
+    },
+    {
+      "file": "assets/case-studies/hwaseong-post-title.jpg",
+      "source_absolute": "/Users/gnudas/Documents/Codex/video-team-runtime/20260922_073547_mv-type-lab-30s/media/90_work_작업중/MV_TYPE_RESEARCH_20260922/1008(1)/1008(1)_grade_v2_4K_info_v5.mp4",
+      "extracted_seconds": 14.3,
+      "description": "Existing movie frame extracted and resized to1280px for lecture; no retouching",
+      "bytes": 29971,
+      "sha256": "a4a341b560e485899f04e304e2c2a90b737513afe682c6922864b842c4a318f1"
+    },
+    {
+      "file": "assets/case-studies/hwaseong-post-freeze.jpg",
+      "source_absolute": "/Users/gnudas/Documents/Codex/video-team-runtime/20260922_073547_mv-type-lab-30s/media/90_work_작업중/MV_TYPE_RESEARCH_20260922/1008(1)/1008(1)_grade_v2_4K_info_v5.mp4",
+      "extracted_seconds": 15.4,
+      "description": "Existing movie frame extracted and resized to1280px for lecture; no retouching",
+      "bytes": 110778,
+      "sha256": "52d8c5dd838b909dcbc967125ea6c23094989d3d561b7079eab5efcc8a375040"
+    },
+    {
+      "file": "assets/case-studies/hwaseong-overlay-v1.jpg",
+      "source_absolute": "/Users/gnudas/Documents/Codex/video-team-runtime/20260922_073547_mv-type-lab-30s/media/90_work_작업중/MV_TYPE_RESEARCH_20260922/1008(1)/1008(1)_grade_v2_4K_info.mp4",
+      "extracted_seconds": 24,
+      "description": "Existing movie frame extracted and resized to1280px for lecture; no retouching",
+      "bytes": 54317,
+      "sha256": "caaeabbc4989c5cf04c89623398f951389f4f9b8670022422c840e4c67b726c9"
+    },
+    {
+      "file": "assets/case-studies/hwaseong-overlay-v5.jpg",
+      "source_absolute": "/Users/gnudas/Documents/Codex/video-team-runtime/20260922_073547_mv-type-lab-30s/media/90_work_작업중/MV_TYPE_RESEARCH_20260922/1008(1)/1008(1)_grade_v2_4K_info_v5.mp4",
+      "extracted_seconds": 24,
+      "description": "Existing movie frame extracted and resized to1280px for lecture; no retouching",
+      "bytes": 55671,
+      "sha256": "03018a95398177a705a95bcdab4b80f38781bde04119e97e38b66879778ca876"
+    },
+    {
+      "file": "assets/case-studies/foodtech-guardian-earlier.png",
+      "source_project": "20260924_204417_seongnam-foodtech-one-table",
+      "source_relative": "media/03_characters_캐릭터/web_CHAR_GUARDIAN_R2.png",
+      "bytes": 1763147,
+      "sha256": "43b5e5ea1f03d678fac1160187bbacb4306c5375cb66b32999209225f7a9828f",
+      "usage": "Existing production sheet for retrospective comparison; no retouch or new generation"
+    },
+    {
+      "file": "assets/case-studies/foodtech-guardian-seedream.png",
+      "source_project": "20260924_204417_seongnam-foodtech-one-table",
+      "source_relative": "media/05_images_approved_이미지승인/CHAR_GUARDIAN_R43_SEEDREAM_A1.png",
+      "bytes": 5767782,
+      "sha256": "5e32a0222cf293949f535ec5f2d775b0bdd350f59415a888a44cf386bd8c5372",
+      "usage": "Existing production sheet for retrospective comparison; no retouch or new generation"
+    },
+    {
+      "file": "assets/case-studies/hwaseong-post-boxing.jpg",
+      "source_absolute": "/Users/gnudas/Documents/Codex/video-team-runtime/20260922_073547_mv-type-lab-30s/media/90_work_작업중/MV_TYPE_RESEARCH_20260922/1008(1)/1008(1)_grade_v2_4K_info_v5.mp4",
+      "extracted_seconds": 43.55,
+      "description": "Existing final movie frame extracted and resized to1280px for lecture; no retouching",
+      "bytes": 151400,
+      "sha256": "f88a6b877670e3f5e7533fa4cc4cd3e4a6b77348568137f4417b26591c3b7d4f"
+    },
+    {
+      "file": "assets/case-studies/hwaseong-post-lipsync.jpg",
+      "source_absolute": "/Users/gnudas/Documents/Codex/video-team-runtime/20260922_073547_mv-type-lab-30s/media/90_work_작업중/MV_TYPE_RESEARCH_20260922/1008(1)/1008(1)_grade_v2_4K_info_v5.mp4",
+      "extracted_seconds": 33.65,
+      "description": "Existing final movie frame extracted and resized to1280px for lecture; no retouching",
+      "bytes": 48141,
+      "sha256": "f121567bc2d958d855d5e4c4bfed774698d8166ded3861c97f687c4b1f7d88b9"
+    },
+    {
+      "file": "assets/case-studies/hwaseong-label-mobility.jpg",
+      "source_absolute": "/Users/gnudas/Documents/Codex/video-team-runtime/20260922_073547_mv-type-lab-30s/media/90_work_작업중/MV_TYPE_RESEARCH_20260922/1008(1)/1008(1)_grade_v2_4K_info_v5.mp4",
+      "extracted_seconds": 18.0,
+      "description": "Existing final movie frame extracted and resized to1280px for lecture; no retouching",
+      "bytes": 49658,
+      "sha256": "6857bb212bd56c0edcaffb7456720956c658fcc243a20848e91a1e242114f1e0"
+    },
+    {
+      "file": "assets/case-studies/hwaseong-label-manufacturing.jpg",
+      "source_absolute": "/Users/gnudas/Documents/Codex/video-team-runtime/20260922_073547_mv-type-lab-30s/media/90_work_작업중/MV_TYPE_RESEARCH_20260922/1008(1)/1008(1)_grade_v2_4K_info_v5.mp4",
+      "extracted_seconds": 24.0,
+      "description": "Existing final movie frame extracted and resized to1280px for lecture; no retouching",
+      "bytes": 55671,
+      "sha256": "03018a95398177a705a95bcdab4b80f38781bde04119e97e38b66879778ca876"
+    },
+    {
+      "file": "assets/case-studies/hwaseong-label-care.jpg",
+      "source_absolute": "/Users/gnudas/Documents/Codex/video-team-runtime/20260922_073547_mv-type-lab-30s/media/90_work_작업중/MV_TYPE_RESEARCH_20260922/1008(1)/1008(1)_grade_v2_4K_info_v5.mp4",
+      "extracted_seconds": 30.2,
+      "description": "Existing final movie frame extracted and resized to1280px for lecture; no retouching",
+      "bytes": 53744,
+      "sha256": "eb4950018b1356700fbe67b3938065c4a3644865d03c7d7d4cd723b0a13ca89f"
+    },
+    {
+      "file": "assets/case-studies/hwaseong-label-physical.jpg",
+      "source_absolute": "/Users/gnudas/Documents/Codex/video-team-runtime/20260922_073547_mv-type-lab-30s/media/90_work_작업중/MV_TYPE_RESEARCH_20260922/1008(1)/1008(1)_grade_v2_4K_info_v5.mp4",
+      "extracted_seconds": 41.3,
+      "description": "Existing final movie frame extracted and resized to1280px for lecture; no retouching",
+      "bytes": 45416,
+      "sha256": "97907aeac2e37c3c488ea02da9b2bcc67f1196780a5ec3244453970eb940ef5c"
+    },
+    {
+      "file": "assets/style-selection/midjourney-style-banner.png",
+      "source_url": "https://docs.midjourney.com/hc/article_attachments/41308374555405",
+      "retrieved": "2026-10-21",
+      "usage": "Official explanatory image, not user production or live account screenshot",
+      "bytes": 968072,
+      "sha256": "ee3669c1d0a0eecd910fb139e4cda92afe90a5cc4c9a60222de096beccf93fdf"
+    },
+    {
+      "file": "assets/style-selection/grok-oil-painting.webp",
+      "source_url": "https://docs.x.ai/images/generation/style-oil-painting.webp",
+      "retrieved": "2026-10-21",
+      "usage": "Official explanatory image, not user production or live account screenshot",
+      "bytes": 149528,
+      "sha256": "af469404b91d0e2a9b5396aa590d38537020178cfa74070f61f1002d50b99ef0"
+    },
+    {
+      "file": "assets/style-selection/grok-pencil-sketch.webp",
+      "source_url": "https://docs.x.ai/images/generation/style-pencil-sketch.webp",
+      "retrieved": "2026-10-21",
+      "usage": "Official explanatory image, not user production or live account screenshot",
+      "bytes": 267016,
+      "sha256": "5529e8e691ed974f304a6d34860901c3934677d3429d49e82417ae9922946c3b"
+    },
+    {
+      "file": "assets/style-selection/grok-anime.webp",
+      "source_url": "https://docs.x.ai/images/generation/style-anime.webp",
+      "retrieved": "2026-10-21",
+      "usage": "Official explanatory image, not user production or live account screenshot",
+      "bytes": 65726,
+      "sha256": "0866c9f33e6442ea5663d33166d9022ed1961bb0cd7efa922a6a53d64477f143"
+    },
+    {
+      "file": "assets/style-selection/grok-watercolor.webp",
+      "source_url": "https://docs.x.ai/images/generation/style-watercolor.webp",
+      "retrieved": "2026-10-21",
+      "usage": "Official explanatory image, not user production or live account screenshot",
+      "bytes": 130920,
+      "sha256": "3db50c6ec24f31ab00a974fb6447f47f190d734b1519e6388c0707b8475a112a"
+    },
+    {
+      "file": "assets/case-studies/seedance-fiji-s09-prompt.txt",
+      "source_project": "20260824_191442_kim-wooyoung-fiji-rebuild",
+      "source_relative": "lanes/seedance/prompts/fresh_v1/S09_CEREMONY_CULTURE_prompt_ko.txt",
+      "bytes": 3031,
+      "sha256": "3bc026706567382a784f7c5ce3652624ceab76d9e460d0ef1fe76e9950ba4011"
+    },
+    {
+      "file": "assets/case-studies/seedance-fiji-s09.mp4",
+      "source_project": "20260824_191442_kim-wooyoung-fiji-rebuild",
+      "source_relative": "media/07_videos_approved_영상승인/S09_CEREMONY_CULTURE_runway_card16_seedance2_0.mp4",
+      "bytes": 24293304,
+      "sha256": "322186a6760f38b1340191bd8618e609f93adbd6a24628fa760fefd91e185b19"
+    },
+    {
+      "file": "assets/case-studies/seedance-fiji-ribbon.jpg",
+      "source_project": "20260824_191442_kim-wooyoung-fiji-rebuild",
+      "source_relative": "lanes/seedance_qc/evidence/runway_card_16/frames/card16_02.jpg",
+      "bytes": 169634,
+      "sha256": "a515672a4cb32bdf4d9ffcd5f3cffbab9177afd7ff52af2414caaa5e41fcbc3e"
+    },
+    {
+      "file": "assets/case-studies/seedance-fiji-cup.jpg",
+      "source_project": "20260824_191442_kim-wooyoung-fiji-rebuild",
+      "source_relative": "lanes/seedance_qc/evidence/runway_card_16/frames/card16_07.jpg",
+      "bytes": 244583,
+      "sha256": "07214a12036a984ec924ad051dbbcd22a2558ff22910a2e767407c0e7cf9011d"
+    },
+    {
+      "file": "assets/dola/seedance-model-aside.png",
+      "source_url": "https://www.dola.com/chat/create-image",
+      "retrieved": "2026-10-21",
+      "capture": "Aside native window screenshot; crop only, original in ignored output/dola-aside-original.png",
+      "bytes": 138213,
+      "sha256": "e7a862837d9d4e029b2731560da2b452d5a1f9eeaff8c74d48101e6702bdc455"
+    },
+    {
+      "file": "assets/postproduction-examples/hyperframes-threejs.gif",
+      "source_url": "https://github.com/heygen-com/hyperframes/blob/main/docs/prompting/examples.mdx",
+      "usage": "HyperFrames 공식 문서의 Three.js adapter 예시. Design·Build·Ship 카드가 일어서는 9초 결과를 GIF로 변환. Opus5.5 생성물이라는 뜻이 아님.",
+      "bytes": 6014824,
+      "sha256": "aafd2e3795a15a32f12bf01d6cff70399572610c6097534ef0a66fa8c315d498",
+      "retrieved": "2026-10-21",
+      "source_media_url": "https://static.heygen.ai/hyperframes-oss/docs/images/prompting/example-3d-cards.mp4",
+      "rights": "Repository Apache-2.0; CDN example video separate redistribution terms unverified.",
+      "duration_seconds": 9.0,
+      "frames": 108,
+      "width": 640,
+      "height": 360
+    },
+    {
+      "file": "assets/postproduction-examples/hyperframes-threejs.jpg",
+      "source_url": "https://github.com/heygen-com/hyperframes/blob/main/docs/prompting/examples.mdx",
+      "usage": "HyperFrames 공식 문서의 Three.js adapter 예시. Design·Build·Ship 카드가 일어서는 9초 결과를 GIF로 변환. Opus5.5 생성물이라는 뜻이 아님.",
+      "bytes": 9706,
+      "sha256": "d8e2449bde834d56504eed9e2d9dd4425a936032988d91d214899598f9fb2ce8",
+      "retrieved": "2026-10-21",
+      "source_media_url": "https://static.heygen.ai/hyperframes-oss/docs/images/prompting/example-3d-cards.mp4",
+      "rights": "Repository Apache-2.0; CDN example video separate redistribution terms unverified."
+    },
+    {
+      "file": "assets/postproduction-examples/remotion-logo.gif",
+      "source_url": "https://github.com/remotion-dev/brand",
+      "usage": "Remotion으로 제작된 공식 브랜드 로고 애니메이션. 공식 GIF 원본 그대로. Opus5.5 생성물이라는 뜻이 아님.",
+      "bytes": 276490,
+      "sha256": "84e15f5cc9a114416c72bc3e0a5fc17909654cee052a842ed46ab8e9e982f288",
+      "retrieved": "2026-10-21",
+      "source_media_url": "https://github.com/remotion-dev/logo/raw/main/animated-logo-banner-light.gif",
+      "rights": "Brand repository package.json says UNLICENSED; educational local reference, not claimed freely redistributable.",
+      "duration_seconds": 2.0,
+      "frames": 60,
+      "width": 1080,
+      "height": 500
+    },
+    {
+      "file": "assets/postproduction-examples/remotion-logo.png",
+      "source_url": "https://github.com/remotion-dev/brand",
+      "usage": "Remotion으로 제작된 공식 브랜드 로고 애니메이션. 공식 GIF 원본 그대로. Opus5.5 생성물이라는 뜻이 아님.",
+      "bytes": 23039,
+      "sha256": "cfee74d6f16d4ad169e6c6058af4e64ca6ee9164f3e40246a70e7b7a04e1b90b",
+      "retrieved": "2026-10-21",
+      "source_media_url": "https://github.com/remotion-dev/logo/raw/main/animated-logo-banner-light.gif",
+      "rights": "Brand repository package.json says UNLICENSED; educational local reference, not claimed freely redistributable."
+    },
+    {
+      "file": "assets/postproduction-examples/hwaseong-overlay.gif",
+      "source_url": null,
+      "usage": "화성 최종본13.3–16.7초에서 추출. 이미 만든 영상에 타이틀·잉크 프리즈를 더한 실제 후처리 결과. 세 도구 모두를 사용했다는 뜻이 아님.",
+      "bytes": 3333396,
+      "sha256": "e15f18605016afbaa83759e59384d2188b7210ae4da195eb887a85ffd08934e5",
+      "retrieved": "2026-10-21",
+      "source_file": "assets/case-studies/hwaseong-final.mp4",
+      "source_interval": "13.3–16.7 seconds for GIF;15.4 seconds for poster",
+      "rights": "Existing user-produced final video; original not modified.",
+      "duration_seconds": 3.41,
+      "frames": 41,
+      "width": 640,
+      "height": 360
+    },
+    {
+      "file": "assets/postproduction-examples/hwaseong-overlay.jpg",
+      "source_url": null,
+      "usage": "화성 최종본13.3–16.7초에서 추출. 이미 만든 영상에 타이틀·잉크 프리즈를 더한 실제 후처리 결과. 세 도구 모두를 사용했다는 뜻이 아님.",
+      "bytes": 35495,
+      "sha256": "c478efa636fa33334e49ef198c365fd7f4938156ebbbe598dbce29725f5ff61e",
+      "retrieved": "2026-10-21",
+      "source_file": "assets/case-studies/hwaseong-final.mp4",
+      "source_interval": "13.3–16.7 seconds for GIF;15.4 seconds for poster",
+      "rights": "Existing user-produced final video; original not modified."
+    }
+  ]
+}

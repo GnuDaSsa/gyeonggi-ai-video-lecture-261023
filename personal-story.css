@@ -166,3 +166,12 @@ button.meta-example-chat:focus-visible{outline:2px solid var(--rust);outline-off
 .imagegen-example code{font-size:19px;color:var(--rust);white-space:nowrap}
 .imagegen-example p{font-size:17px;line-height:1.5;margin:0;color:var(--ink)}
 @media(max-width:680px){.imagegen-message{font-size:28px}.imagegen-options{grid-template-columns:1fr;gap:20px}.imagegen-example{align-items:flex-start;flex-direction:column;gap:12px}}
+
+/* Higgsfield thumbnail and label open the official community. */
+.auto-screenshot-strip .source-site-link{display:flex;align-items:center;gap:12px;color:inherit;text-decoration:none;cursor:pointer}
+.source-site-thumb{display:block;position:relative;overflow:hidden}
+.source-site-thumb img{display:block;width:100%;height:100%;object-fit:contain}
+.source-site-thumb>span{position:absolute;right:7px;bottom:7px;color:#fff;background:#111b;padding:4px 7px;font-size:10px}
+.source-site-link .source-preview{cursor:pointer}
+.source-site-link:focus-visible{outline:2px solid var(--rust);outline-offset:3px}
+.source-site-link:hover b{text-decoration:underline}

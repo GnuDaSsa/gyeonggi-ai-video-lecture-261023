@@ -1,0 +1,9 @@
+15 seconds, 2 shots:
+Clean 2D animation, soft morning window light, warm beige and muted green palette.
+Mina: Korean woman in her forties, black hair in a low bun, olive sweater and navy trousers.
+@Image1 is the kitchen: take the table layout and window light only, not the viewpoint.
+@Image2 is Mina's identity reference: take her face, hair, outfit and proportions only, not its background or pose. The images are independent anchors, not a time order. Hard cut between shots. No on-screen text.
+Shot 1 (0-7s): medium shot, eye level, static camera. Mina sits on the left, with the window on the right. Her right hand grips a plain, unlettered mug and lifts it toward her mouth; steam rises from the hot drink.
+Shot 2 (7-15s): close-up, eye level, slow push in. The same mug stays in her right hand. She takes one sip, lowers the mug to chest height and breathes out.
+Sound: sleeve rustle, a small sip and quiet kitchen room tone. No dialogue.
+End frame: Mina holds the mug at chest height, her face unobstructed.
