@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "paths": {
+    "stateFile": "docs/harness-state.json",
+    "memoryFile": "docs/project-memory.md",
+    "decisionsFile": "docs/decisions.md",
+    "contractsDir": "docs/contracts"
+  },
+  "commands": {
+    "verifyQuick": "node scripts/verify.mjs && python3 -m unittest discover -s scripts -p 'test_*.py'",
+    "verifyFull": "",
+    "docsGenerate": ""
+  },
+  "rules": {
+    "maxRepeatedFailures": 2
+  }
+}

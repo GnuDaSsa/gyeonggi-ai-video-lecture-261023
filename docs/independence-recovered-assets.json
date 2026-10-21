@@ -1,0 +1,589 @@
+{
+  "source_directory": "/Users/gnudas/.codex-cli/generated_images/019f9747-44b4-7422-9782-8f2afa492dcc",
+  "source_session": "019f9747-44b4-7422-9782-8f2afa492dcc",
+  "status": "83 recovered PNG files. Not 83 approved shots; individual final-edit selection unverified.",
+  "project_binding": "Matching user history session names the independence project path on 2026-07-25. See independence-case-evidence.md I7.",
+  "files": [
+    {
+      "file": "exec-b5727e5d-8015-43d6-8e7c-8413aa6ba1ac.png",
+      "modified_at": "2026-07-25T13:43:31.159765+09:00",
+      "bytes": 3148336,
+      "sha256": "6fa4a0c67a50e9b7cf8d60fc45bba2bfcbe32b7ae47b61ac0a28ee46a59dc7c0",
+      "lecture_copy": "assets/case-studies/independence-character-sheet.png"
+    },
+    {
+      "file": "exec-8be21c53-dbbb-4085-a480-3e3f3fc4c875.png",
+      "modified_at": "2026-07-26T02:16:57.514651+09:00",
+      "bytes": 2617352,
+      "sha256": "c5adfbe7e4cb55c12606d41f62cdf7c27f11e000842604f6528105970bc20bba",
+      "lecture_copy": null
+    },
+    {
+      "file": "exec-643756d1-8d65-404f-b38c-18bafff6baed.png",
+      "modified_at": "2026-07-26T02:19:43.303457+09:00",
+      "bytes": 2614161,
+      "sha256": "700965269132c41076c494809550b6eb91505da19cfbc4d25f8c79265a4ea918",
+      "lecture_copy": null
+    },
+    {
+      "file": "exec-005cf385-6b2a-4868-9bc5-e64bdd4004b3.png",
+      "modified_at": "2026-07-26T02:21:07.987295+09:00",
+      "bytes": 2628327,
+      "sha256": "06f38ed1278804306e3f6798c2ca4a6a58a267d53809f97c06344989e2c73486",
+      "lecture_copy": null
+    },
+    {
+      "file": "exec-20f26876-afd5-4a4e-8519-2bca9aad9c07.png",
+      "modified_at": "2026-07-26T02:23:35.061249+09:00",
+      "bytes": 2429811,
+      "sha256": "52b3de59044905b897a82ae8f6eac779c7c065c1b43d0af495e28c645057ebcf",
+      "lecture_copy": null
+    },
+    {
+      "file": "exec-e117a3e8-7e9f-4617-a712-90dfb8f1be02.png",
+      "modified_at": "2026-07-26T11:00:32.559740+09:00",
+      "bytes": 2534296,
+      "sha256": "5802390897d1215e0824f33f8f0d5239b2187df063ac978b58246dbfa1f42d90",
+      "lecture_copy": null
+    },
+    {
+      "file": "exec-e37c3b8d-308a-4533-b51b-1eac3ef2fc6b.png",
+      "modified_at": "2026-07-26T11:02:25.836875+09:00",
+      "bytes": 2536687,
+      "sha256": "5ea1646610797d7895c2ab43925666d832f64f69cbe10d4ec1b805bbccd75785",
+      "lecture_copy": null
+    },
+    {
+      "file": "exec-2f95867a-7d1e-4205-a210-9333a46556a7.png",
+      "modified_at": "2026-07-26T11:04:15.455448+09:00",
+      "bytes": 2579021,
+      "sha256": "18730121adb0a450b104cfc5afabb6c6ecd64d92b9ca8579f291203a401baedf",
+      "lecture_copy": null
+    },
+    {
+      "file": "exec-55bad813-d6cc-4db1-8f7e-99c02baf7304.png",
+      "modified_at": "2026-07-26T11:06:07.056421+09:00",
+      "bytes": 2487796,
+      "sha256": "f608042ee5b74cc9001e3f0bd1dbe951c53399c72820723571dd1934aa325d68",
+      "lecture_copy": null
+    },
+    {
+      "file": "exec-c2d198c5-6cd7-4693-aa01-94e4b85ad120.png",
+      "modified_at": "2026-07-26T11:11:27.206532+09:00",
+      "bytes": 2499676,
+      "sha256": "f7a11199f481a9a976ccdac971464e691245c838f843fab4850ac482f6fd5a8a",
+      "lecture_copy": null
+    },
+    {
+      "file": "exec-49bd67e3-0a4e-46b8-9944-e63ec8811c69.png",
+      "modified_at": "2026-07-26T11:39:59.511819+09:00",
+      "bytes": 2487123,
+      "sha256": "f573155e101fbbd731482c87c9bfe362ee7268122c196e763848f7da1e0dc048",
+      "lecture_copy": null
+    },
+    {
+      "file": "exec-271bd750-b1bd-4926-b9c4-198af94acc4a.png",
+      "modified_at": "2026-07-26T11:43:40.550794+09:00",
+      "bytes": 2702343,
+      "sha256": "4f9dc9d3f5a20d4a46867895e400cabbed03663665b91114c56afc917a9038a9",
+      "lecture_copy": null
+    },
+    {
+      "file": "exec-5dd965cd-3498-494b-aa4d-36ebca7b0283.png",
+      "modified_at": "2026-07-26T11:46:02.845789+09:00",
+      "bytes": 2562366,
+      "sha256": "b0dc783530fa85234264622f98e2a98a73759e583598c1ca5eadf08fa3fad6e3",
+      "lecture_copy": null
+    },
+    {
+      "file": "exec-a76f5845-f119-4788-bb4d-7410a48249dc.png",
+      "modified_at": "2026-07-26T12:05:06.864735+09:00",
+      "bytes": 2519007,
+      "sha256": "19847f9cf61234315eb7a912028837fafeb70bbf6626a0d5c2fd85cf3517c434",
+      "lecture_copy": null
+    },
+    {
+      "file": "exec-f7b22ee4-6af9-4bc2-a2db-385fec2895d8.png",
+      "modified_at": "2026-07-26T15:23:33.229009+09:00",
+      "bytes": 3155969,
+      "sha256": "febf3eb0b682daecf6b7a5fd42098b2e98310a7f1b2a2a68c78ed89b6be02aba",
+      "lecture_copy": null
+    },
+    {
+      "file": "exec-706e3820-b6b0-4d4d-877d-8ceb1212b813.png",
+      "modified_at": "2026-07-26T15:26:19.630777+09:00",
+      "bytes": 2993041,
+      "sha256": "6f9e4dfaaf484854b81977e7c83f242068f9b8dca825e40a8c80bdded3bf6ccc",
+      "lecture_copy": null
+    },
+    {
+      "file": "exec-e74c98b3-657d-4a77-ab99-5c4bd39104cb.png",
+      "modified_at": "2026-07-26T15:29:04.793579+09:00",
+      "bytes": 2807308,
+      "sha256": "7c73360e8bceea80a63d0896bcb9b489e5b5219dc3b64a73044ac53a776f9894",
+      "lecture_copy": null
+    },
+    {
+      "file": "exec-73e31ca6-83ce-439b-9d9a-aff3860a8f31.png",
+      "modified_at": "2026-07-26T15:31:50.739676+09:00",
+      "bytes": 2900239,
+      "sha256": "2b7bfb7390215159ff5fd8ac99429eabf8c43b913420936dca4e24614d3e0537",
+      "lecture_copy": null
+    },
+    {
+      "file": "exec-fa17dfa6-9a02-4c02-a5c8-98dd45b833ff.png",
+      "modified_at": "2026-07-26T15:37:06.158178+09:00",
+      "bytes": 2934620,
+      "sha256": "39d030881b3b5c4ef44831b749a300462c52bfc92bb07a275812632efbaa1079",
+      "lecture_copy": null
+    },
+    {
+      "file": "exec-fc9d2891-5afb-41e8-97e1-fc6bb066e56b.png",
+      "modified_at": "2026-07-26T15:38:36.232958+09:00",
+      "bytes": 3090281,
+      "sha256": "faa9ed34bcac8cba4e7e8eb85cd347dab2506a56596824451072ec88ab48210a",
+      "lecture_copy": null
+    },
+    {
+      "file": "exec-e09d16ea-d76a-470e-b715-c16c08fc3487.png",
+      "modified_at": "2026-07-26T15:41:31.067888+09:00",
+      "bytes": 2646093,
+      "sha256": "9cc5f5b20415e63c6315c3dfa5eb08a8e1e8933ab46a19acdbe961f87c3c5966",
+      "lecture_copy": null
+    },
+    {
+      "file": "exec-96f9229e-72e1-4585-8257-1ac61a7fc200.png",
+      "modified_at": "2026-07-26T15:44:20.887735+09:00",
+      "bytes": 3139810,
+      "sha256": "5bee085c9569117168671d84f4ccda6abf3b204b4b6ef3f11537f168985b6971",
+      "lecture_copy": null
+    },
+    {
+      "file": "exec-f641f63e-a4fe-4660-9cae-476e3214e2d6.png",
+      "modified_at": "2026-07-26T15:58:56.584572+09:00",
+      "bytes": 2908057,
+      "sha256": "adecf4102ab0b7f9fe07040330a913dc3ddf27a7e80509fda8282baad21d8e81",
+      "lecture_copy": null
+    },
+    {
+      "file": "exec-ab39a4df-a46a-4bf8-957a-9e9c61ff4807.png",
+      "modified_at": "2026-07-26T16:02:23.992550+09:00",
+      "bytes": 3072425,
+      "sha256": "aef5f9f5bb92cb4557ffee55f2751868ac00a11fa846963fae2abcef5c801f5a",
+      "lecture_copy": null
+    },
+    {
+      "file": "exec-dfdad5af-50b1-421c-8ab7-11bc4ba530db.png",
+      "modified_at": "2026-07-26T16:05:42.813734+09:00",
+      "bytes": 2564264,
+      "sha256": "3bf30f67a8003c5fc34746c7021961ea4690ff0e1ee81053a8fd3c954e631466",
+      "lecture_copy": null
+    },
+    {
+      "file": "exec-1db9d18b-5313-4123-bf7d-b8d039a992bc.png",
+      "modified_at": "2026-07-26T18:52:01.041465+09:00",
+      "bytes": 2723612,
+      "sha256": "67f808250a12963b36d29f832f6a959bf8c8baaa502e4ff614e3fb74aa396e1c",
+      "lecture_copy": null
+    },
+    {
+      "file": "exec-f5f91344-b303-4683-ade3-2fb9293f472c.png",
+      "modified_at": "2026-07-26T18:53:54.774318+09:00",
+      "bytes": 3028767,
+      "sha256": "41d1f93905e30237b460d939fb067af40681a8885c83ce0c4553ce84e7230549",
+      "lecture_copy": null
+    },
+    {
+      "file": "exec-46b4b0a2-f38d-48ee-afaa-913ccbfd33dd.png",
+      "modified_at": "2026-07-26T18:56:08.780095+09:00",
+      "bytes": 2707615,
+      "sha256": "1092511d93064cc794a63b9c914f274082a1219dce1adf40af94602a9ed05348",
+      "lecture_copy": null
+    },
+    {
+      "file": "exec-b54c8541-487f-4def-b140-8d5e43f90e72.png",
+      "modified_at": "2026-07-26T18:58:42.933206+09:00",
+      "bytes": 2668723,
+      "sha256": "07b7f0ef77ba3b444021434e4823abda2bbca5124b82e733c511dfe2d9e92e17",
+      "lecture_copy": null
+    },
+    {
+      "file": "exec-bf0be9c3-d75c-44e5-aa8d-78812129b62c.png",
+      "modified_at": "2026-07-26T19:02:43.746651+09:00",
+      "bytes": 2843523,
+      "sha256": "88f5909cb2d413f3ec576b214ff6315843183f4c0bb7376729f732712cdba928",
+      "lecture_copy": null
+    },
+    {
+      "file": "exec-f7ee9977-e080-450a-82e7-112705816d32.png",
+      "modified_at": "2026-07-26T19:03:41.392677+09:00",
+      "bytes": 2641236,
+      "sha256": "bead29933a23868524cce8307025673e895481f237bdff5fe788bd6c9be63c13",
+      "lecture_copy": "assets/case-studies/independence-beacon.png"
+    },
+    {
+      "file": "exec-eae04273-d219-41f1-85bc-ebd8f6511022.png",
+      "modified_at": "2026-07-26T19:05:52.937196+09:00",
+      "bytes": 2987198,
+      "sha256": "291969e1f0899cdccfc4746037fe4aca36465b75e2b89cd79eb53c6819ba1093",
+      "lecture_copy": null
+    },
+    {
+      "file": "exec-9b37baf3-8e7a-436f-80d7-047217e31729.png",
+      "modified_at": "2026-07-26T19:08:18.011592+09:00",
+      "bytes": 3197681,
+      "sha256": "dccc03373dafbf59f341a4cdcf9851a473ed7d5cfb5b35bb87d55f805e77dde2",
+      "lecture_copy": null
+    },
+    {
+      "file": "exec-f924b6b4-4507-45f0-b2a1-84400c01ca83.png",
+      "modified_at": "2026-07-26T19:12:04.175987+09:00",
+      "bytes": 2783038,
+      "sha256": "27ee84c9df1941171068e3796ff9ebd46dd70c5c121853ab6ac3d802e5929ea6",
+      "lecture_copy": null
+    },
+    {
+      "file": "exec-629eafef-5154-4cc0-b9ee-3d276c1c94f3.png",
+      "modified_at": "2026-07-26T19:14:58.349341+09:00",
+      "bytes": 2734648,
+      "sha256": "8aab4f833fd04e7f6fedb87496df537447ca66f018f6917427e1846d70ec8fde",
+      "lecture_copy": null
+    },
+    {
+      "file": "exec-72efc109-6c67-47d5-858c-9edecf7abde0.png",
+      "modified_at": "2026-07-26T19:17:18.959732+09:00",
+      "bytes": 2927731,
+      "sha256": "3e0f9b5bd8a951bf612456b4e487899f26dfdfa74f952b7c9235e06a5d2b38fa",
+      "lecture_copy": null
+    },
+    {
+      "file": "exec-172c909c-bd30-436a-90f1-e703402eb13e.png",
+      "modified_at": "2026-07-26T20:29:16.905496+09:00",
+      "bytes": 2804395,
+      "sha256": "f70496e6c0238a9be2a197032780d1d5de3f9350285888fa071d2377c13bb737",
+      "lecture_copy": null
+    },
+    {
+      "file": "exec-07b9efc9-96cf-4321-b32a-be248baf895c.png",
+      "modified_at": "2026-07-26T20:32:18.243335+09:00",
+      "bytes": 2696769,
+      "sha256": "080e31624b88efea2f1dea5d2fae6f751fd71394e8325a08f6e575d5bdb92497",
+      "lecture_copy": null
+    },
+    {
+      "file": "exec-975bc201-b98f-44cc-b07c-da971ef9ac94.png",
+      "modified_at": "2026-07-26T20:33:17.469333+09:00",
+      "bytes": 2729540,
+      "sha256": "16b9351e7b64696b3ad2f43ccd544efe85ec457e4d77a70d1142435089b8a113",
+      "lecture_copy": null
+    },
+    {
+      "file": "exec-0ac473b3-81da-4ff6-a0b8-f73ba33ebe18.png",
+      "modified_at": "2026-07-26T20:34:21.187742+09:00",
+      "bytes": 2555768,
+      "sha256": "5fafb397bde4874a41dc957b24333bbaf8b703d92af89489afc90287369509ec",
+      "lecture_copy": null
+    },
+    {
+      "file": "exec-3d77bf83-22d5-4cc8-aadc-1e34d5b6700d.png",
+      "modified_at": "2026-07-26T20:35:21.950453+09:00",
+      "bytes": 2949231,
+      "sha256": "f8c7defba9fdf90c2e5a6028d558318ca61801b2184b76894efff75139e19879",
+      "lecture_copy": "assets/case-studies/independence-rice.png"
+    },
+    {
+      "file": "exec-4caa600c-7445-4cde-bfee-4008704166b8.png",
+      "modified_at": "2026-07-26T20:40:02.143869+09:00",
+      "bytes": 2626490,
+      "sha256": "89b666ddd60996286b5368a273084a39abd1f3c289b1a5e7e4b22b31e0bf8daa",
+      "lecture_copy": null
+    },
+    {
+      "file": "exec-0f1670b5-45e5-4086-aeb4-b1a8897296d0.png",
+      "modified_at": "2026-07-26T20:41:09.558529+09:00",
+      "bytes": 2832275,
+      "sha256": "f1d80c03dc890747d1b41a27e5eee2571402eeb84b960245402ac47d8de3ff4e",
+      "lecture_copy": null
+    },
+    {
+      "file": "exec-72af009f-a016-49d8-b2f0-a4053bf29bde.png",
+      "modified_at": "2026-07-26T20:43:31.790669+09:00",
+      "bytes": 2844042,
+      "sha256": "03f73f828db1aa3b62afd8a85d44215b3b811bfa0610d1dcf6a753619d4884e2",
+      "lecture_copy": null
+    },
+    {
+      "file": "exec-57c22ed0-4665-46d7-acd0-edb2c2e20d1e.png",
+      "modified_at": "2026-07-26T20:45:55.492559+09:00",
+      "bytes": 2948078,
+      "sha256": "51283dffe487d84094ac95110e574a5b61444dc069e4618c068191227eebf5aa",
+      "lecture_copy": null
+    },
+    {
+      "file": "exec-35ba76a8-f39e-499a-8d41-2a603d14b1e3.png",
+      "modified_at": "2026-07-26T20:49:48.259895+09:00",
+      "bytes": 2960954,
+      "sha256": "127c6b7500e7bc3a70bfaa48c094d4b9a68098f12a3d0b8bfada0dc46d550925",
+      "lecture_copy": null
+    },
+    {
+      "file": "exec-364d0789-9cd8-4e98-afda-824ad237b394.png",
+      "modified_at": "2026-07-26T20:52:00.169364+09:00",
+      "bytes": 2772860,
+      "sha256": "30cd7203eebb8501bc7e8ff45c73b36f28dfd60b2c5e48f8c2c3a047868c8b97",
+      "lecture_copy": null
+    },
+    {
+      "file": "exec-afcf9ecf-bf69-4d71-b96a-70c990847d97.png",
+      "modified_at": "2026-07-26T20:52:59.061717+09:00",
+      "bytes": 2803387,
+      "sha256": "b0d42119371e5c5a74f4d35ac3dec323a9fd15dd547049f9fcef5b16fcf257ba",
+      "lecture_copy": null
+    },
+    {
+      "file": "exec-8ea844ab-2c2e-4e1b-a320-c38dcee50ede.png",
+      "modified_at": "2026-07-26T20:55:17.051527+09:00",
+      "bytes": 2694169,
+      "sha256": "d2ab77e34c79cf8dd173c064c012ffc721458b2f77f53a82dcba57a2256b46ff",
+      "lecture_copy": null
+    },
+    {
+      "file": "exec-1c8584a8-d737-423f-82b4-b718418706b5.png",
+      "modified_at": "2026-07-26T20:58:58.569588+09:00",
+      "bytes": 2840037,
+      "sha256": "ee6cdd21ad24b491373d5f36a346ef811cc9b16f7c8f38a44c08dfd331d086a0",
+      "lecture_copy": null
+    },
+    {
+      "file": "exec-b0a5b7d3-4a73-4541-b780-3cb5ef4a8000.png",
+      "modified_at": "2026-07-26T21:00:05.313729+09:00",
+      "bytes": 2707509,
+      "sha256": "7b955de3a5bb6da260b076bb2fa1fb50c74cb1a978b8ab29e4a50dc76ae4ba5c",
+      "lecture_copy": null
+    },
+    {
+      "file": "exec-6831e3fc-d5bb-4d41-9f5e-b11960f14c35.png",
+      "modified_at": "2026-07-26T21:02:16.951829+09:00",
+      "bytes": 2556346,
+      "sha256": "a2679c6bb771316486acb61cc681e320a8de0dac45a1e1c5f1a255fca0ab495f",
+      "lecture_copy": null
+    },
+    {
+      "file": "exec-64cdf749-a79a-46eb-bbb2-1bd10ca2c6a7.png",
+      "modified_at": "2026-07-26T21:23:44.803246+09:00",
+      "bytes": 2816813,
+      "sha256": "002492aa23bf72b93eb86b4ce29c804350a9596d7133a1f0abe7cb6cd5b9bcfc",
+      "lecture_copy": null
+    },
+    {
+      "file": "exec-3cbf267e-8d2e-4396-a5b0-26e02dcd1e34.png",
+      "modified_at": "2026-07-26T21:24:54.590017+09:00",
+      "bytes": 2820381,
+      "sha256": "89474609ca065af8dc7b817c54fd137c9bc1572b09a3fa825b3c44f2e2281355",
+      "lecture_copy": null
+    },
+    {
+      "file": "exec-d9e20f5d-20f6-4763-8243-5e54f2550dfe.png",
+      "modified_at": "2026-07-26T22:05:38.665313+09:00",
+      "bytes": 2876238,
+      "sha256": "d807f715db837045e9cb8a9733ae6f20ddfd59f7ac9969100e815ef36ffcf0df",
+      "lecture_copy": null
+    },
+    {
+      "file": "exec-8a610f13-8a30-4fad-8cb4-71d477546f89.png",
+      "modified_at": "2026-07-26T22:18:55.666727+09:00",
+      "bytes": 2459518,
+      "sha256": "09ae5fb8968eb22e588ae0c26e286af449a615c83630c4db840d511637daf1e4",
+      "lecture_copy": null
+    },
+    {
+      "file": "exec-92c57019-190e-4a38-9edf-0a14e2591abc.png",
+      "modified_at": "2026-07-26T22:21:45.940557+09:00",
+      "bytes": 2579048,
+      "sha256": "5714c0a4e6baa2ab95a3291027d261863c65d8f08703c45dcc6d8bb0b6e0a3e0",
+      "lecture_copy": null
+    },
+    {
+      "file": "exec-8d1cdc80-f026-4bb3-93de-c839f6e87ff0.png",
+      "modified_at": "2026-07-26T22:29:44.119016+09:00",
+      "bytes": 2862814,
+      "sha256": "4cf756a3b30c3e0e3615e200c84d077743167517a597ca7edd6aeb0121ad924d",
+      "lecture_copy": null
+    },
+    {
+      "file": "exec-0ccbeba8-faea-4fda-9a71-c53a12fb0b3c.png",
+      "modified_at": "2026-07-26T22:34:10.720050+09:00",
+      "bytes": 2757166,
+      "sha256": "7dd7e5bfac3f3285ed11d1cec18a82fbbc2eae7234cf6f492f6ace8558bb243d",
+      "lecture_copy": null
+    },
+    {
+      "file": "exec-47bc9c0e-728a-4aa0-8c7f-e49e326508ee.png",
+      "modified_at": "2026-07-26T22:38:03.399455+09:00",
+      "bytes": 2704844,
+      "sha256": "5a124b2a9d925f22c3aeadc85c6819e06842555348167e3aba4ac1d8d1e87bb7",
+      "lecture_copy": null
+    },
+    {
+      "file": "exec-ac127bf5-3ef8-4d13-9de5-c840155aa9e3.png",
+      "modified_at": "2026-07-26T22:43:05.398669+09:00",
+      "bytes": 2805541,
+      "sha256": "33c262b04f5643521d9cc1c60268744f72cab45d629d69c16cd8eb56b9e6ad61",
+      "lecture_copy": null
+    },
+    {
+      "file": "exec-bc2bf1e9-ec03-4bc8-9fbf-144a54e4577d.png",
+      "modified_at": "2026-07-26T22:47:50.089108+09:00",
+      "bytes": 2823914,
+      "sha256": "c704d5f46a747b3e9bd48c158707434977cb8251cb378c8ba187d8b85565e500",
+      "lecture_copy": null
+    },
+    {
+      "file": "exec-4af39f2f-5031-4564-ad96-76f513fcca2f.png",
+      "modified_at": "2026-07-26T22:54:13.064038+09:00",
+      "bytes": 2967494,
+      "sha256": "6c242416d662364fb5c5450b76e3fe5cd09d5546a467090c793e8341da45bd68",
+      "lecture_copy": null
+    },
+    {
+      "file": "exec-812ca753-69f3-43aa-8df0-3525574acf5d.png",
+      "modified_at": "2026-07-26T23:01:16.287276+09:00",
+      "bytes": 2943949,
+      "sha256": "7a5dc2bd25a8c62967607532f7fd8e8602a02d967bd8e6336eba157c473ed871",
+      "lecture_copy": null
+    },
+    {
+      "file": "exec-da47cc80-d8a3-4a27-9ca3-bff1a132e12d.png",
+      "modified_at": "2026-07-26T23:06:48.532710+09:00",
+      "bytes": 2930540,
+      "sha256": "1d4a4025f9622a8488da0517584155e80a9723d62dd1930edb6fb9abaf96c8bd",
+      "lecture_copy": null
+    },
+    {
+      "file": "exec-b3970909-002f-4238-937d-d493a510f81b.png",
+      "modified_at": "2026-07-26T23:13:35.210454+09:00",
+      "bytes": 2920301,
+      "sha256": "fb0f3009ed101057141d877442caeb1e35cdd7b35257d4d7fb5372f01ab3bc30",
+      "lecture_copy": null
+    },
+    {
+      "file": "exec-1419f72a-bb6d-45a5-88ca-ba3be029867d.png",
+      "modified_at": "2026-07-26T23:19:04.918541+09:00",
+      "bytes": 2684818,
+      "sha256": "34cd6b8766fcf7e99764ee8668a6458da192f1401031fb4f8396da04d3db20c2",
+      "lecture_copy": null
+    },
+    {
+      "file": "exec-6b6cab6c-b38d-42a5-8234-59089fb81716.png",
+      "modified_at": "2026-07-26T23:26:09.026440+09:00",
+      "bytes": 2691826,
+      "sha256": "be7e25d8e661ed0d2f55c9365f3382b9d0c5c1daaba91e14a36e3f51b0f2ef7d",
+      "lecture_copy": null
+    },
+    {
+      "file": "exec-7db5c12f-959a-4ab8-a658-2a9ee4f41f85.png",
+      "modified_at": "2026-07-26T23:32:48.549902+09:00",
+      "bytes": 2787665,
+      "sha256": "f3937972b5a38a632c2ebfdef3e3c05859569d0d21f4f343fad2c15153c73789",
+      "lecture_copy": null
+    },
+    {
+      "file": "exec-cec25ea2-e08c-4c34-bf40-44ad5e5b6f44.png",
+      "modified_at": "2026-07-26T23:39:36.183006+09:00",
+      "bytes": 2811681,
+      "sha256": "89c7bcf01f4c3a5219bc6e1452e9edad499d2768acd814fcbeeb58f9ae9a2392",
+      "lecture_copy": null
+    },
+    {
+      "file": "exec-464ac807-fb42-495c-8dd1-7e7307a3e086.png",
+      "modified_at": "2026-07-26T23:45:41.524389+09:00",
+      "bytes": 2928534,
+      "sha256": "9714d0ffc668e7c4057971fc01eabf011e84ccf6335b2fbb68a7b0bea136b351",
+      "lecture_copy": null
+    },
+    {
+      "file": "exec-ccfd4dc0-665b-4b02-9759-3eb7bd781398.png",
+      "modified_at": "2026-07-26T23:54:51.467368+09:00",
+      "bytes": 3039065,
+      "sha256": "e551e42ed5f5b570392c2f52d4afe40c43d22e217062c09d8be5d97f540ab95f",
+      "lecture_copy": null
+    },
+    {
+      "file": "exec-cf802848-76fb-47ad-beb2-2faa6e9f3bcb.png",
+      "modified_at": "2026-07-27T20:58:53.810210+09:00",
+      "bytes": 2467293,
+      "sha256": "f2218047c94ca73af1cd7ecdc9b3ac2d215d6140f1512d1be5d3fb42a5b49b74",
+      "lecture_copy": null
+    },
+    {
+      "file": "exec-db531dc1-f3b2-45f6-a1d2-75a91a78ebd9.png",
+      "modified_at": "2026-07-27T20:59:49.288619+09:00",
+      "bytes": 2369269,
+      "sha256": "6a6e2c8bf44b1025bb9eee24ab4013c2c0e843e8f52b27bd9c3ea6f27827e4a0",
+      "lecture_copy": null
+    },
+    {
+      "file": "exec-7fb6cc45-66ca-40f3-963b-fc1332e40586.png",
+      "modified_at": "2026-07-27T21:00:41.593982+09:00",
+      "bytes": 2382962,
+      "sha256": "1728d09797fcc9e78986e01402b5c96a9e3d15d854dfc12f2f1401f159a215a8",
+      "lecture_copy": null
+    },
+    {
+      "file": "exec-a7b6e925-4881-47c4-bab4-a3005663fc55.png",
+      "modified_at": "2026-07-27T21:06:34.497731+09:00",
+      "bytes": 2342114,
+      "sha256": "ffc7b8aa636cbf55e835707394a14197275a22725a0e8b57b0fb770adbfa9d27",
+      "lecture_copy": null
+    },
+    {
+      "file": "exec-a526a369-f9cd-475d-8372-2607ffeb3ca1.png",
+      "modified_at": "2026-07-27T21:07:29.347712+09:00",
+      "bytes": 2212550,
+      "sha256": "f39d58111460ebccc84ceaa7a54e20a91f4af0cf1b2f4074658f9b133e67710b",
+      "lecture_copy": null
+    },
+    {
+      "file": "exec-512946a1-4324-4e71-9c17-c9832cf0cae2.png",
+      "modified_at": "2026-07-27T21:09:37.325351+09:00",
+      "bytes": 1961868,
+      "sha256": "cb28c60a95901f1e468c41aaaa20ae89b7315a8613e615ccfa7fd6fdf5679718",
+      "lecture_copy": null
+    },
+    {
+      "file": "exec-82192e89-fa6f-4ca4-b455-34b25f26e8e6.png",
+      "modified_at": "2026-07-27T21:34:59.637509+09:00",
+      "bytes": 2620738,
+      "sha256": "0bbf359c0f0ca54a4dad73455bc7abbe8798bd726a37734989f242dd0c0e3547",
+      "lecture_copy": "assets/case-studies/independence-ending-crosswalk.png"
+    },
+    {
+      "file": "exec-feb47644-8666-497d-8040-3959b0ed09cd.png",
+      "modified_at": "2026-07-27T21:35:55.647446+09:00",
+      "bytes": 2467554,
+      "sha256": "ffbe8b79193a08adf69c30afdc86edb43ff63fc2d665a5f4943da3484896b083",
+      "lecture_copy": "assets/case-studies/independence-ending-park.png"
+    },
+    {
+      "file": "exec-3462ad91-8ce6-451a-9fd5-adc5fa2ca37d.png",
+      "modified_at": "2026-07-27T21:36:44.671062+09:00",
+      "bytes": 2390423,
+      "sha256": "f9dd9cecd0c15d3ae13b09bbde9e1091fa40fddf01cf7f2557b2179c30eec0a9",
+      "lecture_copy": "assets/case-studies/independence-ending-bicycles.png"
+    },
+    {
+      "file": "exec-a71b6f76-06cc-406a-aa4d-db02bd1c683b.png",
+      "modified_at": "2026-07-27T21:37:52.854713+09:00",
+      "bytes": 2293979,
+      "sha256": "efeed2122cfb4c46db436e5a3db1416fea3298578f1549675d0bc13f6ed010c9",
+      "lecture_copy": "assets/case-studies/independence-ending-picnic.png"
+    },
+    {
+      "file": "exec-0ab6bbe9-b4e0-4338-a17e-c6294d5fd678.png",
+      "modified_at": "2026-07-27T21:38:44.144464+09:00",
+      "bytes": 2681440,
+      "sha256": "d007118cb75762eebb2e2d61595a7ae0b0d3e45a913efedcc5ad973dda2c3f98",
+      "lecture_copy": "assets/case-studies/independence-ending-neighbors.png"
+    }
+  ]
+}

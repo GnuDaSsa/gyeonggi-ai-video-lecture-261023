@@ -11,7 +11,7 @@
   document.querySelectorAll('[data-youtube]').forEach(button=>button.onclick=()=>{const stage=button.closest('.shorts-stage'),frame=stage.querySelector('iframe');frame.src='https://www.youtube-nocookie.com/embed/'+button.dataset.youtube+'?autoplay=0&playsinline=1&rel=0';frame.hidden=false;stage.querySelector('.youtube-launch').hidden=true;});
   const hashIndex=()=>{const m=location.hash.match(/^#slide-(\d+)$/);return m?Number(m[1])-1:0};
   document.querySelector('#prev').onclick=()=>go(index-1);document.querySelector('#next').onclick=()=>go(index+1);select.onchange=()=>go(Number(select.value));
-  document.querySelectorAll('[data-go]').forEach(b=>b.onclick=()=>go(Number(b.dataset.go)-1));
+  document.querySelectorAll('[data-go],[data-go-id]').forEach(b=>b.onclick=()=>{const target=b.dataset.goId?slides.findIndex(s=>s.id===b.dataset.goId):Number(b.dataset.go)-1;if(target>=0)go(target)});
   document.querySelector('#fullscreen').onclick=async()=>{try{if(document.fullscreenElement)await document.exitFullscreen();else await document.documentElement.requestFullscreen()}catch{toast('전체화면을 사용할 수 없습니다. 브라우저의 F11 키를 사용하세요.')}};
   addEventListener('fullscreenchange',fit);
   const metaTrigger=document.querySelector('[data-meta-prompt-open]');

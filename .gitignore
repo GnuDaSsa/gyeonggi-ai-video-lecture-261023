@@ -5,3 +5,7 @@ Desktop.ini
 .env
 .env.*
 !.env.example
+
+output/
+.playwright-cli/
+__pycache__/
