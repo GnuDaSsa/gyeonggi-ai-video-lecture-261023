@@ -183,3 +183,11 @@ python3 scripts/serve.py
 - 96→97→98 및100→101→102→103이동PASS. IAB최신목차/102향후계획확인.
 - 증거: output/ending-qa.txt, output/post-gifs-qa.txt, output/playwright/ending-*.png, post-gifs-*.png. 정지미리보기는 실제reduced-motion화면.
 - 새모델생성·전체리허설·GitHub commit/push 미수행. 외부GIF재배포조건 미확인으로공개전권리검토필요.
+
+## 2026-10-21 — 현재 수정본 GitHub 저장
+
+- 사용자 요청으로89개 변경 파일 커밋 `56efde2` 및 `origin/codex/lecture-local-case-studies-20261020` push 완료. 원격SHA 일치 확인.
+- 새 영상4개366MB는 기존Git LFS 업로드 성공. 로컬LFS 무결성 및 남은 업로드 없음 확인.
+-103장/103노트/220참조/51해시 검사, Python13테스트, staged diff, harness 검증 PASS. 변경 파일 비밀키 패턴 탐지 없음.
+-100·102쪽 PC/모바일6화면 및 Video2X 새탭 링크는 직전 수정에서 PASS.
+- main 병합·사이트배포·전체리허설·Windows 업스케일 실행 미수행. 외부예시GIF 개별재배포허락은 검증하지 않았으며 출처·한계 보존.
